@@ -1,0 +1,377 @@
+.layered-map-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: #a4e5ed; /* Ocean blue base */
+  /* Removemos el box-shadow porque el marco lo reemplaza */
+}
+
+/* Base Layers */
+.map-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.terrain-layer {
+  object-fit: cover;
+  z-index: 1;
+}
+
+.svg-layer {
+  z-index: 2;
+  pointer-events: none; /* Let pointer events pass to interactive paths */
+}
+
+.borders-layer {
+  pointer-events: none;
+}
+
+/* Interactive SVG Paths */
+.interaction-layer .interactive-path {
+  fill: transparent;
+  stroke: transparent;
+  pointer-events: visiblePainted;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.interaction-layer .interactive-path:hover {
+  fill: rgba(255, 200, 0, 0.4);
+  filter: drop-shadow(0 0 10px rgba(255, 200, 0, 0.8));
+}
+
+.interaction-layer .interactive-path.selected {
+  fill: rgba(255, 150, 0, 0.6);
+  filter: drop-shadow(0 0 15px rgba(255, 150, 0, 1));
+}
+
+.map-marker-group {
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* Text Layer (Departments, Oceans & Lakes) */
+.dept-label {
+  fill: #4a2c11;
+  font-family: 'Georgia', serif;
+  font-weight: 900;
+  font-size: 15px;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+  paint-order: stroke;
+  stroke: rgba(255, 255, 255, 0.85);
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.3));
+}
+.text-layer {
+  z-index: 3;
+  pointer-events: none;
+  font-family: 'Georgia', serif; /* Or any stylized serif font */
+  color: #1a4a6b;
+  text-shadow: 1px 1px 0px rgba(255,255,255,0.6);
+  font-weight: bold;
+}
+
+.geo-label {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.text-pacific {
+  top: 65%;
+  left: 15%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  font-size: 2rem;
+}
+
+.text-caribbean {
+  top: 45%;
+  left: 90%;
+  transform: translate(-50%, -50%) rotate(75deg);
+  font-size: 2rem;
+}
+
+.text-xolotlan {
+  top: 61%;
+  left: 31%;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.text-cocibolca {
+  top: 76%;
+  left: 55%;
+  font-size: 1.1rem;
+}
+
+
+/* UI Layer (Frames, Banners, Legend) */
+.ui-layer {
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* T\u00edtulo Generado con IA */
+.ui-title-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 280px;
+  height: auto;
+  pointer-events: none;
+  z-index: 24;
+}
+
+.ui-title-text {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 350px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  font-weight: 900;
+  pointer-events: none;
+  z-index: 25;
+  
+  /* Gradiente Brillante Permanente (ignora el Light Mode ya que el marco es oscuro) */
+  background: linear-gradient(135deg, #FFB300 20%, #FFF59D 50%, #00B0FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+  /* Filtro de sombra externa para conservar la legibilidad sobre la madera */
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.8)) drop-shadow(-1px -1px 0px #4a2c11);
+}
+
+/* Marco del mapa generado con IA */
+.map-frame-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 20;
+}
+
+/* Leyenda */
+.ui-legend-container {
+  position: absolute;
+  top: 15%;
+  left: 10px;
+  width: 180px;
+}
+
+.ui-legend-bg {
+  width: 100%;
+  height: auto;
+}
+
+.ui-legend-content {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4a2c11;
+  font-family: 'Georgia', serif;
+}
+
+.ui-legend-content h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #4a2c11;
+  padding-bottom: 5px;
+}
+
+.ui-legend-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.ui-legend-content li {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.ui-legend-content .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ff5722;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/* Iconos Derechos */
+.ui-icons-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  pointer-events: auto; /* Clickable if we want */
+}
+
+.ui-icon-item {
+  position: relative;
+  width: 80px;
+  height: 120px; /* Adjust to match banner proportion */
+}
+
+.ui-icon-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ui-icon-element {
+  position: absolute;
+  bottom: 5px; /* Adjust based on where the circle is on the banner */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+}
+
+/* Scroll Inferior */
+.ui-scroll-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+}
+
+.ui-scroll-bg {
+  width: 100%;
+  height: auto;
+}
+
+.ui-scroll-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+  color: #4a2c11;
+  font-size: 1.2rem;
+  font-family: 'Georgia', serif;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .geo-label { font-size: 1rem; }
+  .text-pacific, .text-caribbean { font-size: 1.2rem; }
+  .ui-title-container { width: 250px; }
+  .ui-title-text { font-size: 1.2rem; }
+  .ui-title-text span { font-size: 0.8rem; }
+  .ui-legend-container { display: none; } /* Hide on mobile to save space */
+  .ui-icons-container { right: 10px; top: 10px; }
+  .ui-icon-item { width: 60px; height: 90px; }
+  .ui-icon-element { width: 35px; height: 35px; }
+  .ui-scroll-container { width: 300px; bottom: 10px; }
+  .ui-scroll-content { font-size: 0.9rem; }
+}
+
+/* ---------------------------------
+   CAPA 3: MARCO DE MADERA VECTORIAL
+   (Game Asset Style)
+--------------------------------- */
+.ui-frame-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  pointer-events: none;
+  box-sizing: border-box;
+  border-radius: 12px;
+
+  box-shadow: 
+    /* HIGHLIGHT AND SHADOW ON MAIN WOOD */
+    inset 4px 4px 0px 4px rgba(255,255,255,0.2),
+    inset -4px -4px 0px 4px rgba(0,0,0,0.3),
+    
+    /* MAIN WOOD THICKNESS */
+    inset 0 0 0 20px #754623, 
+
+    /* INNER DARK LINE */
+    inset 0 0 0 22px #3d220e,
+
+    /* INNER STEP HIGHLIGHT/SHADOW */
+    inset 4px 4px 0px 22px rgba(255,255,255,0.15),
+    inset -4px -4px 0px 22px rgba(0,0,0,0.25),
+
+    /* INNER STEP WOOD */
+    inset 0 0 0 28px #633a1c,
+
+    /* INNERMOST DARK LINE */
+    inset 0 0 0 30px #3d220e,
+
+    /* SHADOW OVER MAP */
+    inset 0 0 30px 30px rgba(0,0,0,0.6);
+}
+
+.ui-corner-bracket {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  pointer-events: none;
+  z-index: 25;
+}
+
+.bracket-top-left {
+  top: -4px;
+  left: -4px;
+}
+
+.bracket-top-right {
+  top: -4px;
+  right: -4px;
+  transform: scaleX(-1);
+}
+
+.bracket-bottom-left {
+  bottom: -4px;
+  left: -4px;
+  transform: scaleY(-1);
+}
+
+.bracket-bottom-right {
+  bottom: -4px;
+  right: -4px;
+  transform: scale(-1, -1);
+}

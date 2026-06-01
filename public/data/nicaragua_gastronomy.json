@@ -1,0 +1,426 @@
+{
+  "departments": [
+    {
+      "id": "managua",
+      "name": "Managua",
+      "landmark": {
+        "name": "Catedral de Santiago de Managua",
+        "description": "Las hermosas ruinas de la Antigua Catedral de Managua, sobreviviente del terremoto de 1972, ubicada frente a la histórica Plaza de la Revolución.",
+        "img": "/assets/landmarks/managua_catedral.png"
+      },
+      "foods": [
+        {
+          "name": "Nacatamal",
+          "description": "El rey de los desayunos dominicales nicaragüenses. Una masa suave de maíz sazonada, rellena con carne de cerdo marinada, arroz, papas, pasas y aceitunas, envuelta y cocida en hojas de plátano.",
+          "ingredients": [
+            { "name": "Masa de maíz precocida", "quantity": "2 libras" },
+            { "name": "Posta de cerdo cortada en trozos", "quantity": "1.5 libras" },
+            { "name": "Papas medianas cortadas en rodajas", "quantity": "3 unidades" },
+            { "name": "Arroz remojado", "quantity": "1/2 taza" },
+            { "name": "Cebollas, chiles y tomates picados", "quantity": "Al gusto" },
+            { "name": "Hojas de plátano limpias", "quantity": "Las necesarias" }
+          ],
+          "history": "De origen precolombino, el nacatamal proviene del náhuatl 'nacatl' (carne) y 'tamalli' (tamal). Con la colonización española, se integró el cerdo, las pasas y aceitunas, convirtiéndose en el plato mestizo por excelencia que reúne a las familias cada fin de semana.",
+          "preparation": "1. Marinar la carne de cerdo con achiote, naranja agria, ajo y sal durante toda la noche.\n2. Cocinar la masa de maíz con manteca de cerdo, cebollas licuadas y caldo de cerdo hasta que espese y esté suave.\n3. Colocar en cruz dos hojas de plátano limpias, agregar una taza de masa, colocar un trozo de cerdo, arroz, una rodaja de papa, pasas y aceituna.\n4. Envolver firmemente en forma de paquete rectangular y amarrar con mecate de plátano o cáñamo.\n5. Cocer en agua hirviendo en una olla grande tapada durante 4 a 5 horas.",
+          "img": "/assets/foods/nacatamal.png"
+        }
+      ]
+    },
+    {
+      "id": "masaya",
+      "name": "Masaya",
+      "landmark": {
+        "name": "Volcán Masaya",
+        "description": "Imponente coloso conocido históricamente como una de las puertas del infierno por los conquistadores españoles debido a su impresionante y activo lago de lava incandescente.",
+        "img": "/assets/landmarks/masaya_volcan.png"
+      },
+      "foods": [
+        {
+          "name": "Vigorón",
+          "description": "Un clásico indiscutible servido sobre hojas de chinchilla, compuesto por yuca cocida tierna, chicharrón crujiente de cerdo y una refrescante ensalada ácida de repollo y mimbar.",
+          "ingredients": [
+            { "name": "Yuca pelada y lavada", "quantity": "2 libras" },
+            { "name": "Chicharrón de cerdo crujiente con carne", "quantity": "1 libra" },
+            { "name": "Repollo cortado fino", "quantity": "1 unidad" },
+            { "name": "Mimbar picado (o vinagre de guineo)", "quantity": "1/2 taza" },
+            { "name": "Tomates medianos picados", "quantity": "2 unidades" },
+            { "name": "Hojas de chinchilla o plátano", "quantity": "Para servir" }
+          ],
+          "history": "Creado originalmente en Granada en 1914 por María Luisa Cisneros, conocida cariñosamente como 'La Loca', se convirtió rápidamente en el platillo callejero preferido de Masaya debido a la frescura de sus ingredientes locales y su facilidad para comerse al paso.",
+          "preparation": "1. Cortar la yuca en trozos y cocerla en abundante agua hirviendo con sal hasta que esté muy suave.\n2. Preparar una ensalada mezclando el repollo cortado en finas tiras, los tomates picados, sal, y el vinagre de mimbar.\n3. Para servir, colocar hojas de chinchilla en un plato hondo o cesta, añadir una porción de yuca humeante, colocar encima trozos generosos de chicharrón crujiente y coronar con la ensalada de repollo y mimbar.",
+          "img": "/assets/foods/vigoron.png"
+        }
+      ]
+    },
+    {
+      "id": "granada",
+      "name": "Granada",
+      "landmark": {
+        "name": "Las Isletas de Granada",
+        "description": "Un archipiélago de más de 360 pequeñas islas de origen volcánico en el Lago Cocibolca, formadas por la erupción del colosal Volcán Mombacho.",
+        "img": "/assets/landmarks/granada_isletas.png"
+      },
+      "foods": [
+        {
+          "name": "Pescado Frito de las Isletas",
+          "description": "Pescado fresco del Lago Cocibolca (comúnmente Guapote), frito a la perfección crujiente y bañado en una deliciosa salsa criolla ácida de tomates y cebollas.",
+          "ingredients": [
+            { "name": "Guapote o Mojarra entera limpia", "quantity": "2 piezas" },
+            { "name": "Harina de trigo", "quantity": "1/2 taza" },
+            { "name": "Tomates frescos picados", "quantity": "3 unidades" },
+            { "name": "Cebollas grandes cortadas en rodajas", "quantity": "2 unidades" },
+            { "name": "Vinagre y limón fresco", "quantity": "Al gusto" },
+            { "name": "Plátanos verdes para tostones", "quantity": "3 unidades" }
+          ],
+          "history": "Granada, al estar situada a la orilla del Gran Lago de Nicaragua, ha desarrollado una cultura gastronómica estrechamente ligada a la pesca lacustre. El guapote frito es el platillo icónico que los pescadores locales y restaurantes flotantes preparan desde hace generaciones.",
+          "preparation": "1. Sazonar el pescado entero con limón, sal, ajo machacado y pimienta, luego pasarlo ligeramente por harina.\n2. Calentar abundante aceite en una sartén grande y freír el pescado hasta que esté dorado y crujiente por ambos lados.\n3. Preparar la salsa criolla sofriendo las cebollas y tomates con vinagre blanco y sal hasta obtener una consistencia jugosa.\n4. Servir el pescado entero caliente bañado en la salsa criolla, acompañado de tostones de plátano verde crujientes y arroz blanco.",
+          "img": "/assets/foods/pescado_frito.png"
+        }
+      ]
+    },
+    {
+      "id": "carazo",
+      "name": "Carazo",
+      "landmark": {
+        "name": "Basílica de San Sebastián",
+        "description": "Hermosa joya arquitectónica de Diriamba, famosa por ser el epicentro cultural de las festividades patronales del Güegüense, Patrimonio de la Humanidad.",
+        "img": "/assets/landmarks/carazo_basilica.png"
+      },
+      "foods": [
+        {
+          "name": "Ajiaco Caraceño",
+          "description": "Un guiso denso de masa de maíz con un balance perfecto entre dulce y salado, preparado con piña, hojas de quelite, jocotes secos y carne de res desmenuzada.",
+          "ingredients": [
+            { "name": "Posta de res desmenuzada", "quantity": "1.5 libras" },
+            { "name": "Masa de maíz disuelta", "quantity": "1 taza" },
+            { "name": "Piña sazona cortada en cubos", "quantity": "1/2 piña" },
+            { "name": "Hojas de quelite picadas", "quantity": "1 taza" },
+            { "name": "Jocotes verdes maduros", "quantity": "10 unidades" },
+            { "name": "Dulce de rapadura raspado", "quantity": "4 cucharadas" }
+          ],
+          "history": "El ajiaco es un plato ceremonial caraceño que fusiona ingredientes indígenas como el quelite y el jocote con carne traída de Europa. Se asocia tradicionalmente a las fiestas de San Sebastián en enero.",
+          "preparation": "1. Cocer la res con cebolla y ajo. Desmenuzar la carne y reservar el caldo.\n2. Sofreír cebolla y chiltoma en manteca de cerdo, agregar la res, los jocotes enteros y la piña picada.\n3. Añadir la masa de maíz disuelta en el caldo de res, y remover constantemente para evitar grumos.\n4. Agregar el dulce de rapadura y las hojas de quelite, cocinando a fuego bajo hasta lograr un guiso aromático, espeso y agridulce.",
+          "img": "/assets/foods/ajiaco.png"
+        }
+      ]
+    },
+    {
+      "id": "rivas",
+      "name": "Rivas",
+      "landmark": {
+        "name": "Volcanes de Ometepe",
+        "description": "La espectacular isla en medio del lago Cocibolca, formada por los majestuosos volcanes Concepción y Maderas conectados por un istmo verde.",
+        "img": "/assets/landmarks/rivas_ometepe.png"
+      },
+      "foods": [
+        {
+          "name": "Rosquillas Rivas",
+          "description": "Bocadillos crujientes de masa de maíz purificada, manteca y queso seco local, horneados en leña hasta lograr su inigualable consistencia tostada.",
+          "ingredients": [
+            { "name": "Masa de maíz molienda fina", "quantity": "2 libras" },
+            { "name": "Queso seco nicaragüense rallado", "quantity": "1.5 libras" },
+            { "name": "Manteca de cerdo pura", "quantity": "1/2 taza" },
+            { "name": "Crema agria criolla", "quantity": "1/2 taza" }
+          ],
+          "history": "Rivas ha sido históricamente un cruce de caminos agrícola. Las rosquillas remiten a las haciendas coloniales españolas y son consumidas tradicionalmente acompañadas de una taza de café caliente por la tarde.",
+          "preparation": "1. Mezclar la masa de maíz con el queso seco, manteca de cerdo y crema hasta obtener una consistencia homogénea y moldeable.\n2. Tomar pequeñas porciones de masa y darles forma de aros (rosquillas) o canastas (viejitas).\n3. Colocar en bandejas de hornear y cocer en horno de barro artesanal a temperatura media-alta durante 25 a 30 minutos hasta que estén completamente crujientes.",
+          "img": "/assets/foods/rosquillas_rivas.png"
+        }
+      ]
+    },
+    {
+      "id": "leon",
+      "name": "León",
+      "landmark": {
+        "name": "Catedral de León",
+        "description": "La imponente e histórica Basílica Catedral de la Asunción, la más grande de Centroamérica y declarada Patrimonio de la Humanidad por la UNESCO.",
+        "img": "/assets/landmarks/leon_catedral.png"
+      },
+      "foods": [
+        {
+          "name": "Cosa de Horno",
+          "description": "Exquisitos panecillos tradicionales dulces preparados con masa de maíz fermentada, cuajada fresca rallada, azúcar y horneados tradicionalmente a la leña.",
+          "ingredients": [
+            { "name": "Masa de maíz blanco fermentada", "quantity": "2 libras" },
+            { "name": "Cuajada fresca nicaragüense", "quantity": "1.5 libras" },
+            { "name": "Azúcar blanca", "quantity": "1 taza" },
+            { "name": "Leche o crema de leche", "quantity": "1/2 taza" }
+          ],
+          "history": "Las 'Cosas de Horno' representan la herencia de los hornos comunales leoneses del periodo colonial. Son famosas en las panaderías artesanales del barrio indígena de Sutiaba.",
+          "preparation": "1. Moler la cuajada fresca y mezclarla con la masa de maíz fermentada, azúcar y crema hasta formar una pasta semi-líquida y suave.\n2. Verter en moldes rectangulares o redondos previamente engrasados.\n3. Hornear a fuego lento-medio en un horno de leña durante 40 minutos o hasta que la superficie esté dorada y con una textura de pudín denso y crujiente en los bordes.",
+          "img": "/assets/foods/cosa_de_horno.png"
+        }
+      ]
+    },
+    {
+      "id": "chinandega",
+      "name": "Chinandega",
+      "landmark": {
+        "name": "Volcán Cosigüina",
+        "description": "Un volcán inactivo con una laguna cratérica de color verde esmeralda y espectaculares vistas hacia el Golfo de Fonseca compartida con El Salvador y Honduras.",
+        "img": "/assets/landmarks/chinandega_cosiguina.png"
+      },
+      "foods": [
+        {
+          "name": "Tonito de Mariscos",
+          "description": "Una espectacular cazuela de mariscos chinandegana espesada con masa de maíz y leche de coco, combinando jaibas, camarones y filete de pescado fresco.",
+          "ingredients": [
+            { "name": "Filete de pescado en trozos", "quantity": "1 libra" },
+            { "name": "Camarones medianos limpios", "quantity": "1/2 libra" },
+            { "name": "Jaibas enteras limpias", "quantity": "4 unidades" },
+            { "name": "Leche de coco cremosa", "quantity": "2 tazas" },
+            { "name": "Masa de maíz para espesar", "quantity": "1/2 taza" }
+          ],
+          "history": "Conectado al Océano Pacífico, Chinandega es tierra de pescadores. El Tonito es una variante de cazuela tradicional que los marineros preparaban directamente en las playas con la pesca del día.",
+          "preparation": "1. Cocer las jaibas y camarones en un caldo aromático con ajo, cebolla y chiltoma picada.\n2. Añadir los trozos de pescado y la leche de coco, dejando hervir suavemente durante 10 minutos.\n3. Disolver la masa de maíz en agua o caldo y agregar poco a poco a la sopa hirviendo, removiendo constantemente para que no se pegue.\n4. Servir muy caliente en cazuelas de barro con unas gotas de limón fresco y chile.",
+          "img": "/assets/foods/tonito_mariscos.png"
+        }
+      ]
+    },
+    {
+      "id": "esteli",
+      "name": "Estelí",
+      "landmark": {
+        "name": "Salto de Estanzuela",
+        "description": "Una impresionante cascada de más de 35 metros de altura rodeada de exuberante vegetación tropical y rocas monumentales en la reserva Tisey-Estanzuela.",
+        "img": "/assets/landmarks/esteli_estanzuela.png"
+      },
+      "foods": [
+        {
+          "name": "Sopa de Albóndigas de Estelí",
+          "description": "Un reconfortante y sabroso caldo de gallina criolla enriquecido con albóndigas esponjosas hechas de masa de maíz sazonada con queso rallado y yerbabuena.",
+          "ingredients": [
+            { "name": "Gallina de patio entera troceada", "quantity": "1 unidad" },
+            { "name": "Masa de maíz suave", "quantity": "2 tazas" },
+            { "name": "Queso seco o cuajada rallada", "quantity": "1 taza" },
+            { "name": "Hojas frescas de yerbabuena", "quantity": "1/2 taza" },
+            { "name": "Verduras en trozos (papas, chayote, quequisque)", "quantity": "Al gusto" }
+          ],
+          "history": "En las frías zonas montañosas del norte de Nicaragua, las sopas calientes son sagradas. La Sopa de Albóndigas esteliana se consolidó como el almuerzo tradicional de los días festivos de las familias campesinas.",
+          "preparation": "1. Hervir la gallina troceada en una olla grande con agua, ajo, cebolla y sal hasta que la carne esté tierna.\n2. Retirar la gallina y añadir las verduras al caldo hirviendo.\n3. Para las albóndigas: mezclar la masa de maíz con el queso rallado, yerbabuena picada fina y caldo caliente hasta formar esferas suaves.\n4. Incorporar las albóndigas una a una al caldo hirviendo suavemente para evitar que se desbaraten. Cocinar hasta que las albóndigas floten y estén completamente cocidas.",
+          "img": "/assets/foods/sopa_albondigas.png"
+        }
+      ]
+    },
+    {
+      "id": "madriz",
+      "name": "Madriz",
+      "landmark": {
+        "name": "Cañón de Somoto",
+        "description": "Una de las formaciones geológicas más antiguas e impresionantes de Centroamérica, con imponentes acantilados rocosos bordeando el Río Coco.",
+        "img": "/assets/landmarks/madriz_canon.png"
+      },
+      "foods": [
+        {
+          "name": "Rosquillas Somoteñas",
+          "description": "Las rosquillas más famosas de Nicaragua. Crujientes, delgadas y elaboradas artesanalmente con maíz seleccionado molido a piedra, queso criollo y horneadas a leña.",
+          "ingredients": [
+            { "name": "Maíz blanco seleccionado remojado", "quantity": "3 libras" },
+            { "name": "Queso criollo artesanal seco", "quantity": "2 libras" },
+            { "name": "Manteca de cerdo purificada", "quantity": "1 taza" },
+            { "name": "Dulce de rapadura raspado", "quantity": "1/2 taza" }
+          ],
+          "history": "Las rosquillas de Somoto gozan de fama nacional e internacional. Su secreto radica en el tipo de maíz de las tierras altas de Madriz y la receta centenaria de horneado en hornos de barro comunales alimentados por leña de roble.",
+          "preparation": "1. Lavar y moler finamente el maíz para crear una masa muy fina y suave.\n2. Incorporar el queso criollo rallado y la manteca de cerdo, amasando enérgicamente hasta obtener una textura flexible.\n3. Moldear las rosquillas en forma circular clásica y las viejitas (canastas que contienen dulce de rapadura en el centro).\n4. Hornear en dos etapas en horno de barro artesanal caliente hasta que queden doradas y adquieran su crujencia característica.",
+          "img": "/assets/foods/rosquillas_somoto.png"
+        }
+      ]
+    },
+    {
+      "id": "nuevasegovia",
+      "name": "Nueva Segovia",
+      "landmark": {
+        "name": "Cerro Mogotón",
+        "description": "El punto geográfico más alto de toda Nicaragua, ubicado en la cordillera Dipilto y Jalapa, cubierto de exuberantes bosques de pinos y niebla perpetua.",
+        "img": "/assets/landmarks/nuevasegovia_mogoton.png"
+      },
+      "foods": [
+        {
+          "name": "Nacatamal Segoviano",
+          "description": "Variante norteña del nacatamal clásico, caracterizada por una masa súper cremosa enriquecida con papas adicionales, cebollas cambray y un toque sutil de naranja agria en el aliño de cerdo.",
+          "ingredients": [
+            { "name": "Masa de maíz tierno molido", "quantity": "2 libras" },
+            { "name": "Lomo de cerdo jugoso en cubos", "quantity": "1.5 libras" },
+            { "name": "Tocino o manteca criolla", "quantity": "3/4 taza" },
+            { "name": "Naranjas agrias frescas", "quantity": "3 unidades" },
+            { "name": "Hojas de plátano ahumadas", "quantity": "Las necesarias" }
+          ],
+          "history": "En Nueva Segovia, el nacatamal es un arte. Se diferencia del nacatamal del pacífico por el uso exclusivo de ingredientes de la cordillera y una masa que se cuece más tiempo con jugo de naranja agria silvestre.",
+          "preparation": "1. Adobar el lomo de cerdo con ajo, achiote, orégano y abundante jugo de naranja agria.\n2. Cocinar la masa de maíz con manteca de cerdo, sazonándola con cebollas cambray y chiltomas licuadas.\n3. Armar los nacatamales colocando en las hojas la masa cocida, el lomo adobado, arroz, rodajas de papa, pasas y una ramita de yerbabuena.\n4. Amarrar firmemente en forma rectangular y cocinar en agua hirviendo durante 5 horas completas.",
+          "img": "/assets/foods/nacatamal_segoviano.png"
+        }
+      ]
+    },
+    {
+      "id": "jinotega",
+      "name": "Jinotega",
+      "landmark": {
+        "name": "Peña de la Cruz",
+        "description": "Una icónica cruz monumental situada en la cima del cerro Isabelia, que ofrece una vista panorámica espectacular sobre la ciudad de las brumas y las plantaciones de café.",
+        "img": "/assets/landmarks/jinotega_peñacruz.png"
+      },
+      "foods": [
+        {
+          "name": "Agua de Loza",
+          "description": "Una bebida tradicional y refrescante única de Jinotega, elaborada a base de maíz tostado y molido fino, cacao seleccionado, jengibre y endulzada con dulce de rapadura.",
+          "ingredients": [
+            { "name": "Maíz blanco tostado", "quantity": "1 libra" },
+            { "name": "Cacao en grano tostado", "quantity": "1/2 libra" },
+            { "name": "Jengibre fresco rallado", "quantity": "2 cucharadas" },
+            { "name": "Dulce de rapadura disuelto", "quantity": "1 taza" }
+          ],
+          "history": "El Agua de Loza (o tiste jinotegano) es una bebida de origen indígena que se servía originalmente en vasijas de barro ('loza') durante las faenas de la recolección del café en las montañas de Jinotega.",
+          "preparation": "1. Moler juntos el maíz tostado y los granos de cacao hasta obtener un polvo muy fino.\n2. Mezclar el polvo resultante con agua fría filtrada, agregar el jengibre fresco rallado y remover enérgicamente.\n3. Endulzar con el dulce de rapadura disuelto en agua tibia y enfriar con abundante hielo antes de servir.",
+          "img": "/assets/foods/agua_loza.png"
+        }
+      ]
+    },
+    {
+      "id": "matagalpa",
+      "name": "Matagalpa",
+      "landmark": {
+        "name": "Selva Negra",
+        "description": "Una reserva ecológica histórica y cafetalera de clima templado y nebliselva, pionera en el ecoturismo sostenible y cultivo de café de alta calidad.",
+        "img": "/assets/landmarks/matagalpa_selvanegra.png"
+      },
+      "foods": [
+        {
+          "name": "Güirila con Cuajada",
+          "description": "Una tortilla dorada y dulce hecha con masa de maíz tierno crudo (choclo) molido, asada a la plancha entre hojas de plátano y servida con cuajada fresca recién hecha.",
+          "ingredients": [
+            { "name": "Maíz tierno (choclo o elote tierno)", "quantity": "6 mazorcas" },
+            { "name": "Cuajada fresca o queso mozzarella fresco", "quantity": "1/2 libra" },
+            { "name": "Azúcar y una pizca de sal", "quantity": "Al gusto" },
+            { "name": "Hojas de plátano limpias", "quantity": "6 unidades" }
+          ],
+          "history": "Matagalpa es la cuna de la güirila. Nace de la abundancia del maíz tierno cultivado en sus fértiles valles montañosos. Se consume tradicionalmente por las mañanas o tardes en paradas de carretera junto con café de altura.",
+          "preparation": "1. Desgranar las mazorcas de maíz tierno y moler los granos crudos hasta obtener una masa pastosa y jugosa (no agregar agua).\n2. Sazonar ligeramente con azúcar y una pizca de sal.\n3. Colocar una porción de masa sobre una hoja de plátano, dándole forma circular, y cubrirla con otra hoja de plátano.\n4. Asar sobre un comal o plancha caliente hasta que el maíz esté firme y dorado por ambos lados. Servir bien caliente coronada con un trozo grueso de cuajada fresca.",
+          "img": "/assets/foods/guirila.png"
+        }
+      ]
+    },
+    {
+      "id": "boaco",
+      "name": "Boaco",
+      "landmark": {
+        "name": "El Faro de Boaco",
+        "description": "Un hermoso mirador y monumento ubicado en la parte más alta de la ciudad de dos pisos, que ofrece vistas panorámicas impresionantes de las serranías.",
+        "img": "/assets/landmarks/boaco_faro.png"
+      },
+      "foods": [
+        {
+          "name": "Sopa de Mondongo de Boaco",
+          "description": "Una famosa y reconstituyente sopa de panza y patas de res cocida lentamente con abundantes verduras locales, sazonada con naranja agria, hierbabuena y achiote.",
+          "ingredients": [
+            { "name": "Patas y panza (mondongo) de res limpia", "quantity": "3 libras" },
+            { "name": "Naranjas agrias frescas", "quantity": "4 unidades" },
+            { "name": "Verduras variadas (quequisque, repollo, yuca, elote)", "quantity": "Al gusto" },
+            { "name": "Ajo licuado, achiote y sal", "quantity": "Al gusto" },
+            { "name": "Tortillas de maíz recién hechas", "quantity": "Para acompañar" }
+          ],
+          "history": "Boaco es una importante región ganadera de Nicaragua. La sopa de mondongo boaqueña goza de reputación nacional como el mejor reconstituyente dominical, cocinándose con fuego de leña desde la época colonial.",
+          "preparation": "1. Lavar minuciosamente la panza y patas de res con abundante jugo de limón y naranja agria.\n2. Cocinar a fuego lento durante horas hasta que la carne esté extremadamente blanda.\n3. Retirar las carnes, cortarlas en trozos pequeños e incorporar las verduras al caldo hirviendo.\n4. Diluir achiote y ajo licuado con jugo de naranja agria y agregarlo a la sopa para darle color y sabor. Reincorporar las carnes y servir caliente con tortillas de maíz.",
+          "img": "/assets/foods/sopa_mondongo.png"
+        }
+      ]
+    },
+    {
+      "id": "chontales",
+      "name": "Chontales",
+      "landmark": {
+        "name": "Serranías de Amerrique",
+        "description": "Una impresionante cordillera montañosa de formaciones rocosas cubiertas de nebliselva, hogar de leyendas arqueológicas precolombinas del centro del país.",
+        "img": "/assets/landmarks/chontales_amerrique.png"
+      },
+      "foods": [
+        {
+          "name": "Quesillos Chontaleños",
+          "description": "Una delicia láctea única elaborada con queso de pasta hilada en forma de trenza o rollos, envuelto en una tortilla caliente, cubierto con cebolla encurtida ácida y crema agria fresca.",
+          "ingredients": [
+            { "name": "Leche entera de vaca fresca", "quantity": "2 galones" },
+            { "name": "Tortillas de maíz delgadas y calientes", "quantity": "12 unidades" },
+            { "name": "Cebolla blanca picada fina encurtida", "quantity": "2 tazas" },
+            { "name": "Crema de leche agria fresca", "quantity": "1.5 tazas" },
+            { "name": "Sal y vinagre", "quantity": "Al gusto" }
+          ],
+          "history": "Chontales es el corazón lácteo de Nicaragua, donde 'los ríos corren con leche y las piedras son de queso'. El quesillo nació como una forma ingeniosa de conservar y disfrutar de la leche excedente del ordeño diario.",
+          "preparation": "1. Cuajar la leche y someter la cuajada a un proceso de estiramiento en agua caliente (pasta hilada) para formar hilos o rollos trenzados.\n2. Preparar el encurtido hirviendo ligeramente la cebolla picada con vinagre y sal.\n3. Para armar: colocar un trozo de quesillo sobre una tortilla caliente de maíz recién salida del comal, envolverlo firmemente en forma de rollo, bañar con una generosa porción de cebolla picada y coronar con crema agria líquida salada al gusto.",
+          "img": "/assets/foods/quesillo.png"
+        }
+      ]
+    },
+    {
+      "id": "riosanjuan",
+      "name": "Río San Juan",
+      "landmark": {
+        "name": "El Castillo de la Inmaculada Concepción",
+        "description": "Una imponente fortaleza militar colonial española del siglo XVII, construida a orillas del Río San Juan para defender el paso contra piratas del Caribe.",
+        "img": "/assets/landmarks/riosanjuan_castillo.png"
+      },
+      "foods": [
+        {
+          "name": "Pescado al Estilo Río San Juan",
+          "description": "Pescado entero de río cocinado a fuego lento en una sabrosa e incomparable salsa caribeña a base de leche de coco fresca, pimientos, ajo y verduras de la selva.",
+          "ingredients": [
+            { "name": "Robalo o Sábalo entero limpio", "quantity": "2 piezas" },
+            { "name": "Leche de coco fresca extraída", "quantity": "2 tazas" },
+            { "name": "Cebollas y chiltomas dulces picadas", "quantity": "2 unidades" },
+            { "name": "Plátano verde para tostones machacados", "quantity": "3 unidades" },
+            { "name": "Ajo picado fino", "quantity": "3 dientes" }
+          ],
+          "history": "Río San Juan es un santuario biológico donde se fusiona el agua dulce de los grandes lagos con la selva tropical del Caribe. Este platillo representa la unión perfecta del pescado de agua dulce con las salsas a base de coco de herencia afrocaribeña.",
+          "preparation": "1. Sazonar el pescado entero con sal, limón y ajo machacado, sellándolo ligeramente en una sartén con poco aceite.\n2. En una olla honda, sofreír las cebollas, pimientos y ajo, luego verter la leche de coco fresca.\n3. Introducir el pescado sellado en la salsa de coco y dejar cocinar a fuego medio hasta que reduzca a una consistencia untuosa y cremosa.\n4. Servir el pescado entero bañado en su salsa acompañado de crujientes tostones de plátano verde.",
+          "img": "/assets/foods/pescado_sanjuan.png"
+        }
+      ]
+    },
+    {
+      "id": "raccn",
+      "name": "Costa Caribe Norte",
+      "landmark": {
+        "name": "Cayos Miskitos",
+        "description": "Un espectacular archipiélago de manglares y arrecifes de coral en el Caribe, hábitat sagrado para tortugas marinas y tradicional de los pescadores Miskitos.",
+        "img": "/assets/landmarks/raccn_cayosmiskitos.png"
+      },
+      "foods": [
+        {
+          "name": "Wabul de Plátano",
+          "description": "Una bebida espesa y nutritiva de la etnia Miskita, elaborada a base de plátanos verdes cocidos y machacados, mezclados a mano con leche de coco tibia fresca.",
+          "ingredients": [
+            { "name": "Plátanos verdes maduros", "quantity": "4 unidades" },
+            { "name": "Leche de coco fresca", "quantity": "2 tazas" },
+            { "name": "Agua de cocción del plátano", "quantity": "1 taza" }
+          ],
+          "history": "El Wabul es la bebida ancestral de la Costa Caribe de Nicaragua, consumida a diario por la etnia Miskita. No requiere azúcar ya que aprovecha el dulzor natural de los plátanos y el coco frescos cocinados a leña.",
+          "preparation": "1. Pelar y cocer los plátanos verdes en abundante agua hirviendo hasta que estén completamente suaves.\n2. Retirar los plátanos y machacarlos firmemente en caliente (tradicionalmente con un mazo de madera en un mortero grande) hasta obtener un puré suave y liso sin grumos.\n3. Agregar la leche de coco tibia poco a poco al puré, mezclando y batiendo vigorosamente a mano hasta alcanzar una consistencia de bebida cremosa y densa. Servir templada.",
+          "img": "/assets/foods/wabul.png"
+        }
+      ]
+    },
+    {
+      "id": "raccs",
+      "name": "Costa Caribe Sur",
+      "landmark": {
+        "name": "Corn Island",
+        "description": "Paraíso tropical en el mar Caribe con espectaculares playas de arena blanca y agua turquesa cristalina rodeadas de palmeras y arrecifes vírgenes.",
+        "img": "/assets/landmarks/raccs_cornisland.png"
+      },
+      "foods": [
+        {
+          "name": "Rondón del Caribe",
+          "description": "El plato bandera de la costa atlántica. Una sopa de mariscos (pescado, cangrejo y camarones) y tubérculos (yuca, malanga, plátano) cocidos lentamente en leche de coco sazonada con albahaca y chile cabro.",
+          "ingredients": [
+            { "name": "Filetes de pescado en cubos", "quantity": "2 libras" },
+            { "name": "Jaibas y camarones limpios", "quantity": "1 libra" },
+            { "name": "Yuca, malanga y plátano verde cortados", "quantity": "2 libras en total" },
+            { "name": "Leche de coco cremosa fresca", "quantity": "4 tazas" },
+            { "name": "Hojas de albahaca criolla y chile cabro entero", "quantity": "Al gusto" }
+          ],
+          "history": "El término Rondón proviene del inglés 'run down' (lo que se consigue para la olla). Es de herencia afrocaribeña (Criolla/Garífuna), y refleja la pesca diaria combinada con los frutos secos y raíces de la selva tropical del caribe sur.",
+          "preparation": "1. En una olla grande, poner a hervir la leche de coco junto con la yuca, malanga y plátano verde hasta que los tubérculos comiencen a ablandarse.\n2. Sazonar el caldo con ajo picado, cebolla picada, hojas de albahaca fresca picada y sal.\n3. Colocar los mariscos (pescado, jaiba y camarones) encima de los tubérculos en el caldo hirviendo, agregar un chile cabro entero (sin romper para que no pique demasiado) y tapar la olla.\n4. Cocinar tapado a fuego medio-bajo durante 20 minutos sin revolver demasiado para evitar desbaratar el pescado. Servir caliente con pan de coco recién salido del horno.",
+          "img": "/assets/foods/rondon.png"
+        }
+      ]
+    }
+  ]
+}

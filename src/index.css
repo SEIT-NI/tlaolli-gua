@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+:root {
+  /* HSL Colors */
+  --bg-main: #0B0E14;
+  --glass-bg: rgba(18, 22, 33, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 255, 255, 0.16);
+  --glass-highlight: rgba(255, 255, 255, 0.03);
+
+  /* Brand Accents */
+  --color-primary: #FFB300;       /* Volcanic Gold */
+  --color-secondary: #00B0FF;     /* Blue Lakes */
+  --color-accent: #FF3D00;        /* Terracotta Clay */
+  --color-success: #00E676;       /* Lush Forest Green */
+  
+  /* Text */
+  --text-white: #F5F7FA;
+  --text-muted: #9AA4B5;
+  --text-dark: #1E293B;
+
+  /* Font */
+  --font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Animation Speeds */
+  --transition-smooth: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --transition-fast: all 0.2s ease;
+
+  /* Gradient Text Colors */
+  --gradient-start: var(--color-primary);
+  --gradient-mid: #FFF59D;
+  --gradient-end: var(--color-secondary);
+}
+
+[data-theme="light"] {
+  --bg-main: #F4F7F6;
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(0, 0, 0, 0.1);
+  --glass-border-hover: rgba(0, 0, 0, 0.2);
+  --glass-highlight: rgba(0, 0, 0, 0.03);
+  --text-white: #2D3748;
+  --text-muted: #718096;
+  
+  /* Darker gradient for Light Mode */
+  --gradient-start: #E65100; /* Dark Orange/Gold */
+  --gradient-mid: #F57F17;   /* Deep Yellow */
+  --gradient-end: #0277BD;   /* Deep Blue */
+}
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-white);
+  font-family: var(--font-family);
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(255, 179, 0, 0.04) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(0, 176, 255, 0.05) 0%, transparent 45%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Premium Layout Components */
+.app-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-height: 100vh;
+}
+
+.app-header {
+  text-align: center;
+}
+
+.app-title {
+  font-size: clamp(2.2rem, 6vw, 3.6rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--gradient-start) 20%, var(--gradient-mid) 50%, var(--gradient-end) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.app-subtitle {
+  color: var(--text-muted);
+  font-size: clamp(0.9rem, 2vw, 1.15rem);
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+/* Glassmorphism Panel Template */
+.glass-panel {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  transition: var(--transition-smooth);
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-white);
+  transition: var(--transition-fast);
+  border: 1px solid var(--glass-border);
+}
+
+.theme-toggle:hover {
+  background: var(--glass-highlight);
+  transform: scale(1.05);
+}
+
+.glass-panel:hover {
+  border-color: var(--glass-border-hover);
+  box-shadow: 0 16px 48px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* ==================== 1. INITIAL STATE: Centered Large Map ==================== */
+.initial-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  animation: fade-in 0.6s ease;
+}
+
+.large-map-wrapper {
+  width: 100%;
+  max-width: 900px;
+}
+
+.large-map {
+  padding: 2rem;
+}
+
+/* ==================== 2. ACTIVE STATE: 2-Column Layout ==================== */
+.bento-grid.active-layout {
+  display: grid;
+  /* Original: 380px 1fr. 
+     Restringimos el panel derecho a un máximo de ~750px (aprox 25% menos de su tamaño total en pantallas grandes) 
+     y centramos la cuadrícula. */
+  grid-template-columns: 380px minmax(0, 450px);
+  justify-content: center;
+  gap: 2rem;
+  align-items: start;
+  width: 100%;
+  animation: slide-up 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.left-panel, .right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Department Name Header */
+.department-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: -0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* Illustrated Map Layout */
+.gamified-map-container {
+  position: relative;
+  width: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+  border: 2px solid rgba(255, 179, 0, 0.2);
+}
+
+.nicaragua-game-map-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: var(--transition-smooth);
+}
+
+.nicaragua-game-svg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+/* Dynamic Interactive Hotspot paths */
+.hotspot-path {
+  fill: rgba(255, 255, 255, 0);
+  stroke: rgba(255, 255, 255, 0);
+  stroke-width: 2;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.hotspot-path:hover {
+  fill: rgba(255, 179, 0, 0.22);
+  stroke: var(--color-primary);
+  stroke-width: 3;
+  filter: drop-shadow(0 0 12px var(--color-primary));
+}
+
+.hotspot-path.active {
+  fill: rgba(255, 179, 0, 0.35);
+  stroke: var(--color-primary);
+  stroke-width: 4;
+  filter: drop-shadow(0 0 18px var(--color-primary));
+}
+
+/* Active Pin Marker Animation */
+.marker-glow {
+  animation: pulse-glow-game 2s infinite alternate;
+}
+
+@keyframes pulse-glow-game {
+  0% {
+    r: 10px;
+    opacity: 0.6;
+    filter: drop-shadow(0 0 4px var(--color-primary));
+  }
+  100% {
+    r: 18px;
+    opacity: 1;
+    filter: drop-shadow(0 0 16px var(--color-primary));
+  }
+}
+
+.map-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.map-title {
+  font-size: 1.45rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.map-legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.dot.active { background: var(--color-primary); }
+
+/* Left Zoom-in Panel & Landmark Card */
+.landmark-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 24px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+  overflow: hidden;
+}
+
+.landmark-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 240px;
+}
+
+.landmark-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Fusión de imagen con el fondo mediante gradiente */
+.landmark-image-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: -1px; /* Evita línea subpíxel */
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to bottom, rgba(18, 22, 33, 0) 0%, rgba(18, 22, 33, 0.6) 100%);
+}
+
+.department-miniature {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 110px;
+  height: 110px;
+  background: rgba(18, 22, 33, 0.50);
+  backdrop-filter: blur(2px);
+  border: 1px solid var(--glass-border);
+  border-radius: 14px;
+  z-index: 10;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.landmark-content {
+  position: relative;
+  z-index: 3;
+  padding: 0 1.8rem 1.8rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.landmark-desc {
+  color: var(--text-white);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+/* Controls */
+.back-button {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 500;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: var(--transition-fast);
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text-white);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.map-reset-btn {
+  width: 100%;
+  justify-content: center;
+  padding: 0.8rem;
+  background: rgba(255, 179, 0, 0.05);
+  border-color: rgba(255, 179, 0, 0.15);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.map-reset-btn:hover {
+  background: rgba(255, 179, 0, 0.12);
+  border-color: var(--color-primary);
+}
+
+/* Typical Foods List */
+.food-list-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.food-list-title::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 18px;
+  background: var(--color-primary);
+  border-radius: 2px;
+}
+
+.food-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.food-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: var(--transition-smooth);
+  overflow: hidden;
+}
+
+.food-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 179, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.food-card-img {
+  width: 140px;
+  height: 130px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.food-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.food-card-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.food-card-desc {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.4;
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+/* Detail Zoom Animation (Selected Dish Flow) */
+.dish-detail-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.dish-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dish-detail-back {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--text-white);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: var(--transition-fast);
+}
+
+.dish-detail-back:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.dish-detail-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.dish-main-image {
+  width: 100%;
+  height: 415px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+
+/* Dynamic Tab System */
+.dish-tabs {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.dish-tab {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px; /* Pill shape */
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: var(--transition-fast);
+}
+
+.dish-tab:hover {
+  color: var(--text-white);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.dish-tab.active {
+  color: var(--bg-main);
+  background: var(--text-white);
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+.tab-content {
+  animation: fade-in 0.3s ease;
+  line-height: 1.6;
+  font-size: 0.92rem;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.desc-text {
+  font-weight: 300;
+}
+
+.dish-tab-content {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 1.8rem;
+  min-height: 200px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-white);
+  animation: fade-in 0.3s ease;
+}
+
+.ingredients-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+  list-style: none;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.ing-name {
+  color: var(--text-white);
+}
+
+.ing-qty {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.preparation-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.prep-step {
+  font-weight: 300;
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-primary);
+}
+
+/* Empty placeholder styles */
+.empty-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 350px;
+  text-align: center;
+  color: var(--text-muted);
+  gap: 1rem;
+}
+
+.placeholder-icon {
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 0.15);
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Scaling Breakpoints */
+@media (max-width: 1150px) {
+  .bento-grid.active-layout {
+    grid-template-columns: 1fr 1fr;
+  }
+  .center-panel {
+    grid-column: span 2;
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1rem;
+  }
+  
+  .bento-grid.active-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .center-panel {
+    grid-column: span 1;
+  }
+
+  .food-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
