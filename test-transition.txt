@@ -1,0 +1,1 @@
+We will remove the failing ViewTransition logic and implement a pure CSS keyframe animation that creates a "fly out from map" effect.

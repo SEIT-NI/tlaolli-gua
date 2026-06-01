@@ -42,10 +42,9 @@ export default function App() {
   const handleSelectDepartment = (deptInfo) => {
     const fullDeptData = gastronomyData.find((d) => d.id === deptInfo.id);
     if (fullDeptData) {
-      // Guardar también las propiedades del mapa (path, center) para la miniatura
       setSelectedDepartment({ ...fullDeptData, path: deptInfo.path, center: deptInfo.center });
-      setSelectedFood(null); // Clear selected dish when swapping depts
-      setActiveTab('description'); // Reset active tab
+      setSelectedFood(null);
+      setActiveTab('description');
     }
   };
 
@@ -72,21 +71,22 @@ export default function App() {
           <h2>Preparando el Comal...</h2>
           <p>Cargando sabores tradicionales nicaragüenses...</p>
         </div>
-      ) : !selectedDepartment ? (
-        /* ==================== INITIAL STATE: Large Centered Map ==================== */
-        <main className="initial-layout">
-          <div className="large-map-wrapper">
-            <NicaraguaMap
-              selectedDepartment={selectedDepartment}
-              onSelectDepartment={handleSelectDepartment}
-              isSmall={false}
-              
-            />
-          </div>
-        </main>
       ) : (
-        /* ==================== SELECTED STATE: Interactive 2-Column Layout ==================== */
-        <main className="bento-grid active-layout">
+        <>
+          {/* MAP IS ALWAYS RENDERED. We apply the background class directly to large-map-wrapper */}
+          <div className="initial-layout" style={{ position: selectedDepartment ? 'fixed' : 'relative', zIndex: selectedDepartment ? -1 : 1 }}>
+            <div className={`large-map-wrapper ${selectedDepartment ? 'map-background-blur' : ''}`}>
+              <NicaraguaMap
+                selectedDepartment={selectedDepartment}
+                onSelectDepartment={handleSelectDepartment}
+                isSmall={false}
+              />
+            </div>
+          </div>
+
+          {selectedDepartment && (
+            /* ==================== SELECTED STATE: Interactive 2-Column Layout ==================== */
+            <main className="bento-grid active-layout">
           
           {/* COLUMN 1: Historic Landmark Details */}
           <section className="left-panel">
@@ -95,7 +95,10 @@ export default function App() {
                 <h2 className="department-title text-gradient">{activeDept.name}</h2>
                 {activeDept.landmark && (
                   <div className="landmark-card">
-                    <div className="department-miniature">
+                    <div 
+                      className="department-miniature"
+                      style={{ animation: 'fly-from-map 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards' }}
+                    >
                       <svg 
                         width="100%" 
                         height="100%"
@@ -242,7 +245,8 @@ export default function App() {
                     activeDept.foods.map((food, index) => (
                       <div 
                         key={index} 
-                        className="food-card"
+                        className="food-card slide-up-stagger"
+                        style={{ animationDelay: `${index * 0.15}s` }}
                         onClick={() => setSelectedFood(food)}
                       >
                         <img 
@@ -267,7 +271,9 @@ export default function App() {
             )}
           </section>
 
-        </main>
+            </main>
+          )}
+        </>
       )}
     </div>
   );

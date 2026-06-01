@@ -23,6 +23,34 @@
           "history": "De origen precolombino, el nacatamal proviene del náhuatl 'nacatl' (carne) y 'tamalli' (tamal). Con la colonización española, se integró el cerdo, las pasas y aceitunas, convirtiéndose en el plato mestizo por excelencia que reúne a las familias cada fin de semana.",
           "preparation": "1. Marinar la carne de cerdo con achiote, naranja agria, ajo y sal durante toda la noche.\n2. Cocinar la masa de maíz con manteca de cerdo, cebollas licuadas y caldo de cerdo hasta que espese y esté suave.\n3. Colocar en cruz dos hojas de plátano limpias, agregar una taza de masa, colocar un trozo de cerdo, arroz, una rodaja de papa, pasas y aceituna.\n4. Envolver firmemente en forma de paquete rectangular y amarrar con mecate de plátano o cáñamo.\n5. Cocer en agua hirviendo en una olla grande tapada durante 4 a 5 horas.",
           "img": "/assets/foods/nacatamal.png"
+        },
+        {
+          "name": "Baho",
+          "description": "Una imponente pirámide de sabores elaborada con carne de res marinada seca, plátanos verdes y maduros, y yuca, todo cocido lentamente al vapor envuelto en gruesas capas de hojas de plátano.",
+          "ingredients": [
+            { "name": "Cecina de res marinada seca", "quantity": "2 libras" },
+            { "name": "Plátanos verdes y maduros", "quantity": "4 unidades de cada uno" },
+            { "name": "Yuca pelada", "quantity": "2 libras" },
+            { "name": "Cebollas, tomates y chiltomas", "quantity": "Al gusto" },
+            { "name": "Hojas de plátano", "quantity": "Las necesarias" }
+          ],
+          "history": "El Baho (o Vaho) es la mezcla perfecta de las tres herencias culturales de Nicaragua: la indígena (yuca), la africana (plátano) y la española (carne de res). Se popularizó en los mercados de Managua como un manjar de fin de semana.",
+          "preparation": "1. Sazonar la carne con jugo de naranja agria, ajo y cebolla.\n2. Forrar el fondo y las paredes de una olla grande con cruzadas hojas de plátano.\n3. Colocar una capa de yuca, luego los plátanos verdes y maduros cortados por la mitad con cáscara, y en el centro la carne marinada.\n4. Cubrir con las verduras picadas y cerrar bien con más hojas de plátano como un paquete sellado.\n5. Agregar un poco de agua al fondo y cocinar al vapor a fuego muy lento por unas 4 horas. Servir con ensalada de repollo ácida.",
+          "img": "/assets/foods/baho.png"
+        },
+        {
+          "name": "Carne Asada de Fritanga",
+          "description": "El emblema de la comida callejera nocturna en la capital. Finos cortes de carne de res o cerdo marinados y asados al carbón, servidos con gallo pinto y tajadas de plátano verde.",
+          "ingredients": [
+            { "name": "Lomo o posta de res en filetes delgados", "quantity": "2 libras" },
+            { "name": "Gallo pinto tradicional", "quantity": "Al gusto" },
+            { "name": "Plátanos verdes para tajadas", "quantity": "3 unidades" },
+            { "name": "Naranja agria, achiote, ajo y sal", "quantity": "Para el marinado" },
+            { "name": "Queso frito", "quantity": "1 libra" }
+          ],
+          "history": "Las fritangas son el corazón culinario de las noches en Managua. Nacieron en las esquinas de los barrios como pequeños negocios familiares, llenando el aire nocturno con el irresistible aroma del carbón y la carne asada.",
+          "preparation": "1. Marinar los filetes de res con ajo machacado, achiote, sal y jugo de naranja agria durante varias horas.\n2. Preparar el fogón con carbón hasta que esté al rojo vivo.\n3. Asar la carne rápidamente para mantener sus jugos.\n4. Cortar el plátano verde en rodajas longitudinales (tajadas) y freírlas en aceite caliente hasta que estén crujientes.\n5. Servir la carne sobre una base de gallo pinto, acompañada de tajadas crujientes, queso frito y ensalada de repollo.",
+          "img": "/assets/foods/carne_asada.png"
         }
       ]
     },

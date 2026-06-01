@@ -238,6 +238,7 @@ export default function NicaraguaMap({ selectedDepartment, onSelectDepartment, i
           <g className="interaction-layer">
             {DEPARTMENTS_HOTSPOTS.map((dept) => {
               const isActive = selectedDepartment?.id === dept.id;
+              
               return (
                 <path
                   key={dept.id}
