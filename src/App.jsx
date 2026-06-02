@@ -1,12 +1,9 @@
 import VectorMapTest from './components/VectorMapTest';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import NicaraguaMap from './components/NicaraguaMap';
+import MapDecorations from './components/MapDecorations';
 
 export default function App() {
-  if (window.location.pathname === '/vectorial-map') {
-    return <VectorMapTest />;
-  }
-
   const [gastronomyData, setGastronomyData] = useState([]);
   const [selectedDepartment, setSelectedDepartment] = useState(null);
   const [selectedFood, setSelectedFood] = useState(null);
@@ -53,8 +50,21 @@ export default function App() {
     ? { ...gastronomyData.find(d => d.id === selectedDepartment.id), ...selectedDepartment }
     : null;
 
+  // Check URL params for decorations
+  const searchParams = new URLSearchParams(window.location.search);
+  const showDecorations = searchParams.has('with-deco');
+
+  if (window.location.pathname === '/vectorial-map') {
+    return <VectorMapTest />;
+  }
+
   return (
     <div className="app-container">
+      {/* Elementos decorativos del mar (islas, olas, aves) */}
+      {showDecorations && !selectedDepartment && (
+        <MapDecorations enableBirds={true} numBirds={3} birdSpeed={0.8} birdSize={20} />
+      )}
+      
       {/* Theme Toggle Button */}
       <button 
         className="theme-toggle glass-panel" 
@@ -80,6 +90,7 @@ export default function App() {
                 selectedDepartment={selectedDepartment}
                 onSelectDepartment={handleSelectDepartment}
                 isSmall={false}
+                //dev={true}
               />
             </div>
           </div>
