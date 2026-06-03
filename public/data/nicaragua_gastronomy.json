@@ -342,7 +342,7 @@
       "landmark": {
         "name": "Catedral de Granada",
         "description": "Por su carcterístico color amarillo, la Catedral no solo es un centro de culto y peregrinación, sino tambieén un referente cultural y turístico. En ella se celebran importantes festividades como la Semana Santa y las fiestas patronales en honor a la inmaculada Cocepción de María, además  de ofrecer a los visitantes la oportunidad de subir a us torres para disfrutar de una de las mejores vistas panorámicas de Granada.",
-        "img": "/assets/landmarks/catedral_de_granada_granada.png"
+        "img": "/assets/landmarks/catedral_de_granada_granada.jpg"
       },
       "foods": [
         {
@@ -392,7 +392,7 @@
           ],
           "history": "Su origen combina técnicas prehispánicas de asado a las brasas con la introducción de la mojarra (tilapia) desde África, convirtiéndose en un clásico de la gastronomía costera y lacustre.",
           "preparation": " Realiza 3 cortes diagonales por cada lado del pescado, que lleguen al esqueleto, luego mezcla en un bol todos los ingredientes menos el perejil ni las ruedas del limón.Aplicamel aderezo con ayuda de una brocha por cada hendidura, cada lado y la parte interna de la mojarra. Despues en la parte interna de la Mojarda coloca las ruedas de limón , añade el perejil por cada ranura y la parte interna del pescado, ahora aplica un poco de aceite en las caras de las mojarra, el aceite es para bañar la parrilla, esto evitara que se pegue la piel de la mojarra, cocina por cada lado, el tiempo dependera de la intensidad de las brasas, mínimo 10 minutos si no está muy alto el fuego, finalmente baja la tapa del asador y dejalo por 4 minutos para que se cocine mejor interiormente.",
-          "img": "/assets/foods/mojarra_asada_granada.png"
+          "img": "/assets/foods/mojarra_asada_granada.jpg"
         },
         {
           "name": "Arroz de Gaspar",
@@ -433,7 +433,7 @@
           ],
           "history": "El origen de arroz con gaspar se encuentra en la profunda fusión mestiza y cultural de Nicaragua, ligada estrechamente a la geografía lacustre del país y a los mandatos religiosos coloniles.",
           "preparation": "En una olla coloca suficiente agua e hierbe junto con los tomates, las cebollas y las chiltoma. Una vez esten cosidos, se agrega el arroz y se cocina hasta que este listo, luego cocina el gaspar y una vez listo, aplica en pequeños trozos para agregarlo al arroz.",
-          "img": "/assets/foods/arroz_con_gaspar_granada.png"
+          "img": "/assets/foods/arroz_con_gaspar_granada.jpg"
         }
       ]
     },
@@ -443,7 +443,7 @@
       "landmark": {
         "name": "parque central de San Marco",
         "description": "Este parque central transmite tranquilidad y belleza,con áreas verdes bien cuidadas, senderos limpios y ambiente propicios para el descanso y la recreacion.",
-        "img": "/assets/landmarks/parque_central_san_marco_carazo.png"
+        "img": "/assets/landmarks/parque_central_de_san_marco_carazo.jpg"
       },
       "foods": [
         {
@@ -489,7 +489,7 @@
           ],
           "history": "Los origenes del guiso se remontan a la epoca colonial. Según historiadores y gastrónomos este alimento se les preparaba a personas de avanzada edad por su suave textura y los varios nutrientes que contiene. Posteriormente se empezo a compartir en fiestas patronales, rezos y otras actividades célebres.",
           "preparation": "Lave con naranja agria y ponga a cocer carne con cebolla, chiltoma y ajo. Cuando la carne este fría amase la harina hasta que este media sólida desmenuce la carne, triture los tomares rodajee la cebolla restante y un diente decajo y revuelva. Ponga una sartén con aceite hasta que este jugoso y vierta sobre esto la carne y la masa junto con un poco de jugo de naranja agria. Póngalos a fuego lento durante 15 minutos meneándolo para evitar que se pegue.",
-          "img": "/assets/foods/masa_cazuela_carazo.png"
+          "img": "/assets/foods/masa_cazuela_carazo.jpg"
         },
         {
           "name": "baho",
@@ -554,7 +554,7 @@
           ],
           "history": "El baho surgió como una fusión entre la cocina africana y lamcocina de los pueblos índigenaa procedentes del sur del continente y que poblaron la región central y caribe de Nicaragua.",
           "preparation": "preparar la carne, cortando en rodajas finas. prepara un adobo con jugo de naranja agria, ajo, cebolla, tomates, pimienta,todo licuado o picado, luego marina la carne en el adobo durante toda la noche(de 12 a 24 horas), para que penetre bien el sabor, pela y corta la yuca en trozos grandes, los platanos verdes y maduros en mitades o trozos grandes,cortar cebolla, tomate y pimiento em rodajas.Despues en una olla grande coloca ramas de guayaba o aguacate en el fondo para levantar las hojas de plátano y evitar que queden en contacto directo con el agua, cubre con hojas de platano frescas, formando una especie de bolsa, coloca en capas la yuca, platanos verdes, platanos maduros con la cáscara y luego la carne marinada. Añade las rodajas de cebolla, tomate y pimiento encima, y cierra bien con más hojas de platano. Ahora añade agua en la base de la olla para generar vapor, sin que toque directamente los ingredientes dentro de las hojas, cocina al vapor con la olla tapada durante 3 o 4 horas, hasta que la carne este muy suave y la yuca se deshaga al pincharla y finalmente sirve.",
-          "img": "/assets/foods/baho_carazo.png"
+          "img": "/assets/foods/baho_carazo.jpg"
         }
       ]
     },
