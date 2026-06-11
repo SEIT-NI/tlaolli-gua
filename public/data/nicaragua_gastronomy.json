@@ -706,7 +706,7 @@
       "landmark": {
         "name": "Las playas vírgenes de Jiquilillo",
         "description": "Se ubican en el municipio de El Viejo, Chinandega. Destacan por su oleaje ideal para surfear, su arena oscura de origen volcánico, sus extensos manglares y su cercanía a reservas naturales vírgenes.",
-        "img": ""
+        "img": "/assets/landmarks/playas_virgenes_de_jiquilillo_chinandega.png"
       },
       "foods": [
         {
@@ -752,7 +752,7 @@
           ],
           "history": "Los tamales pizques tienen origen en las tradiciones indígenas mesoamericanas, donde el maíz era la base de la alimentación. Con el paso del tiempo, en Nicaragua se popularizó esta versión sencilla rellena de frijoles, convirtiéndose en una comida económica, nutritiva y representativa de la gastronomía nacional.",
           "preparation": "Primero cocinar los frijoles y molerlos hasta obtener una pasta espesa. Preparar la masa de maíz y agregar sal al gusto. Extender una porción de masa sobre una hoja de plátano. Colocar una cucharada de frijoles en el centro. Cubrir con más masa y envolver cuidadosamente con la hoja. Amarrar los tamales si es necesario. Colocarlos en una olla con agua y cocinarlos durante aproximadamente 1 a 2 horas. Dejar reposar unos minutos antes de servir.",
-          "img": ""
+          "img": "/assets/foods/tamales_pizques_chinandega.png"
         },
         {
           "name": "Toncua con miel",
@@ -785,7 +785,7 @@
           ],
           "history": "Surgió como una forma de aprovechar las frutas locales y el dulce de caña, un ingrediente muy común en la gastronomía nicaragüense. Con el tiempo se convirtió en un símbolo gastronómico de la región, al punto de ser reconocido oficialmente como el dulce típico de Chinandega.",
           "preparation": "1.Lavar bien las toncuas.\n2.Colocarlas en una olla con agua.\n3.Agregar el dulce de caña y las especias.\n4.Cocinar a fuego lento hasta que el dulce se derrita y se forme una miel espesa.\n5.Dejar que las toncuas absorban la miel hasta quedar suaves y brillantes.\n6.Servir frío o temperatura ambiente.",
-          "img": ""
+          "img": "/assets/foods/toncua_en_miel_chinandega.png"
         }
       ]
     },
@@ -795,7 +795,7 @@
       "landmark": {
         "name": "Volcán Cerro Negro",
         "description": "Es uno de los atractivos más conocidos para la práctica de aventura en Nicaragua, se encuentra a 25 km de la ciudad de León, es el más joven de Centro América (167 años) y uno de los más activos del país, mide aproximadamente 728 msnm.",
-        "img": ""
+        "img": "/assets/landmarks/cerro_negro_leon.png"
       },
       "foods": [
         {
@@ -829,7 +829,7 @@
           ],
           "history": "El quesillo es especialmente famoso en Nagarote, donde se ha elaborado durante generaciones. Con el tiempo se convirtió en uno de los alimentos típicos más conocidos del país.",
           "preparation": "Primero se debe calentar la tortilla. Colocar el quesillo en el centro para que se derrita ligeramente. Agregar la cebolla encurtida, añadir crema y una pizca de sal y por ultimo enrollar la tortilla y servir.",
-          "img": ""
+          "img": "/assets/foods/quesillo_leon.png"
         },
         {
           "name": "Chancho con yuca",
@@ -862,7 +862,7 @@
           ],
           "history": "El chancho con yuca es una comida tradicional presente en muchas fiestas patronales y celebraciones familiares de Nicaragua.",
           "preparation": "Primero se debe sazonar la carne de cerdo con ajo y sal. Luego cocinarla hasta que este suave o freírla hasta dorarla, pelar y hervir la yuca hasta que quede tierna, preparar una ensalada de repollo y tomate. Por último servir la carne junto con la yuca y la ensalada.",
-          "img": ""
+          "img": "/assets/foods/chancho_con_yuca_leon.png"
         }
       ]
     },
@@ -872,7 +872,7 @@
       "landmark": {
         "name": "Salto Estanzuela",
         "description": "Uno de los sitios emblemáticos que debes conocer es el salto La Estanzuela, ubicada e la Reserva Natural Tisey- La Estanzuela, donde sobre una roca cae una cascada con una altura de unos 40 metros y es uno de los grandes atractivos para turistas nacionalesy extranjero, ha sea contemplando su caída y vegetación, tomándosefotografíaso bien zambulléndose en las frías aguas que forman una especie de pequeña laguna.",
-        "img": ""
+        "img": "/assets/landmarks/esteli_salto_estanzuela.jpg"
       },
       "foods": [
         {
@@ -1044,34 +1044,120 @@
       "name": "Madriz",
       "landmark": {
         "name": "Cañón de Somoto",
-        "description": "Una de las formaciones geológicas más antiguas e impresionantes de Centroamérica, con imponentes acantilados rocosos bordeando el Río Coco.",
-        "img": "/assets/landmarks/madriz_canon.png"
+        "description": "El ⁠Monumento Nacional Cañón de Somoto es una majestuosa formación geológica de origen volcánico con millones de años de antigüedad, ubicada a unos 15 kilómetros de la ciudad de Somoto, en el departamento de Madriz. Con paredes rocosas que se elevan hasta los 250 metros de altura, el cañón funciona como el impresionante cauce inicial del Río Coco —el más largo de Centroamérica— y ofrece a los visitantes una experiencia ecoturística llena de aventura que incluye senderismo, nado y saltos en sus aguas cristalinas.",
+        "img": "/assets/landmarks/canon_de_somoto_madriz.png"
       },
       "foods": [
         {
           "name": "Rosquillas Somoteñas",
-          "description": "Las rosquillas más famosas de Nicaragua. Crujientes, delgadas y elaboradas artesanalmente con maíz seleccionado molido a piedra, queso criollo y horneadas a leña.",
+          "description": "Las rosquillas de Somoto son el producto gastronómico más emblemático del departamento de Madriz y un símbolo de la identidad culinaria de Nicaragua. Elaboradas de forma artesanal en hornos de leña tradicionales.",
           "ingredients": [
             {
-              "name": "Maíz blanco seleccionado remojado",
+              "name": "Harina de maíz",
+              "quantity": "3 tazas"
+            },
+            {
+              "name": "Queso seco o cuajada",
+              "quantity": "2 tazas"
+            },
+            {
+              "name": "Mantequilla o margarina",
+              "quantity": "1 barra"
+            },
+            {
+              "name": "Leche entera o suero de leche",
+              "quantity": "1/2 taza"
+            },
+            {
+              "name": "Huevos",
+              "quantity": "1 a 2 unidades"
+            },
+            {
+              "name": "Polvo para hornear",
+              "quantity": "1 cucharadita"
+            },
+            {
+              "name": "Sal",
+              "quantity": "Al gusto"
+            }
+          ],
+          "history": "Nacidas en la década de 1930 de la mano de doña Vitelia Galo, las rosquillas de Somoto surgieron de la fusión colonial entre el maíz nativo y los lácteos españoles. Lo que inició como una solución familiar para aprovechar el excedente de queso y maíz en Madriz, evolucionó gracias al relevo generacional en una industria artesanal que hoy sostiene la economía de la región y es un símbolo cultural de Nicaragua.",
+          "preparation": "Para preparar las rosquillas de Somoto, se mezcla la harina de maíz con el queso seco rallado y el polvo de hornear, integrando luego la mantequilla, los huevos y la leche gradualmente hasta obtener una masa suave, homogénea y moldeable. A continuación, se toman pequeñas porciones para estirar bastoncitos con las manos y unir sus extremos formando los tradicionales anillos, mientras que para las viejitas se hacen discos planos con un borde levantado que se rellena con dulce de rapadura rallado. Finalmente, las piezas se colocan en bandejas y se hornean a fuego medio (idealmente en horno de leña) hasta que estén doradas, retirándolas brevemente para dejarlas enfriar un poco antes de un segundo horneado a baja temperatura, proceso clave que les otorga su textura crujiente y tostada tan característica.",
+          "img": "/assets/foods/rosquillas_sonotenas_madriz.png"
+        },
+        {
+          "name": "Caure",
+          "description": "El caure es una sopa ancestral de origen indígena del departamento de Madriz, cuya base es un caldo espeso de maíz tostado y molido. Considerada tradicionalmente como un placer de los dioses, se condimenta con vegetales locales y se prepara principalmente con res o gallina india, siendo un platillo festivo reservado para celebraciones especiales y la Cuaresma.",
+          "ingredients": [
+            {
+              "name": "Gallina india o carne de res",
               "quantity": "3 libras"
             },
             {
-              "name": "Queso criollo artesanal seco",
-              "quantity": "2 libras"
+              "name": "Maíz blanco",
+              "quantity": "1/2 libras"
             },
             {
-              "name": "Manteca de cerdo purificada",
-              "quantity": "1 taza"
+              "name": "Agua",
+              "quantity": "4 a 5 litros"
             },
             {
-              "name": "Dulce de rapadura raspado",
-              "quantity": "1/2 taza"
+              "name": "Cebollas medianas",
+              "quantity": "2 unidades"
+            },
+            {
+              "name": "Tomates maduros",
+              "quantity": "3 unidades"
+            },
+            {
+              "name": "Ajos",
+              "quantity": "1 cabeza entera"
+            },
+            {
+              "name": "Hierbabuena",
+              "quantity": "1 moño fresco"
+            },
+            {
+              "name": "Naranjas agrias",
+              "quantity": "3 a 4 unidades"
+            },
+            {
+              "name": "Achiote",
+              "quantity": "1 cucharada"
+            },
+            {
+              "name": "Sal",
+              "quantity": "Al gusto"
             }
           ],
-          "history": "Las rosquillas de Somoto gozan de fama nacional e internacional. Su secreto radica en el tipo de maíz de las tierras altas de Madriz y la receta centenaria de horneado en hornos de barro comunales alimentados por leña de roble.",
-          "preparation": "1. Lavar y moler finamente el maíz para crear una masa muy fina y suave.\n2. Incorporar el queso criollo rallado y la manteca de cerdo, amasando enérgicamente hasta obtener una textura flexible.\n3. Moldear las rosquillas en forma circular clásica y las viejitas (canastas que contienen dulce de rapadura en el centro).\n4. Hornear en dos etapas en horno de barro artesanal caliente hasta que queden doradas y adquieran su crujencia característica.",
-          "img": "/assets/foods/rosquillas_somoto.png"
+          "history": "El caure es un platillo ceremonial prehispánico heredado de las comunidades indígenas chorotegas de Madriz, quienes lo consideraban un manjar de los dioses. Originalmente elaborado con maíz criollo y carnes de caza como el venado, evolucionó con la llegada española al incorporar la res y la gallina, manteniéndose hasta hoy en las zonas rurales como una comida comunitaria reservada para festividades y la Cuaresma.",
+          "preparation": "Para preparar el caure, primero se cuece la carne de res o gallina en una olla grande con agua, ajo y sal hasta que esté suave, retirándola luego para desmenuzarla o cortarla en trozos pequeños. Paralelamente, se tuesta el maíz en un comal, se muele de forma gruesa y se disuelve en un poco de caldo frío o agua para evitar grumos, incorporándolo después gradualmente a la olla de caldo hirviendo mientras se menea constantemente para que espese sin ahumarse ni pegarse. Finalmente, se regresa la carne a la olla junto con los tomates, cebollas, chiltomas y el achiote, dejando hervir el conjunto a fuego lento hasta que los vegetales estén cocidos, y se retira del fuego añadiendo el jugo de naranja agria y la hierbabuena fresca para darle su toque aromático y ácido característico.",
+          "img": "/assets/foods/caure_madriz.png"
+        },
+        {
+          "name": "Cususa",
+          "description": "La cususa es un aguardiente artesanal de herencia indígena elaborado en Madriz mediante la fermentación de maíz y rapadura de dulce, que luego se destila en alambiques de barro o cobre. Este licor cristalino, conocido en el campo como chicha bruja, posee una alta graduación alcohólica y se consume tradicionalmente en festividades rurales, celebraciones comunitarias y como remedio casero.",
+          "ingredients": [
+            {
+              "name": "Maíz criollo",
+              "quantity": "5 libras"
+            },
+            {
+              "name": "Rapadura de dulce",
+              "quantity": "2 atados completos"
+            },
+            {
+              "name": "Agua limpia",
+              "quantity": "5 galones"
+            },
+            {
+              "name": "Levadura natural o madre de chicha",
+              "quantity": "1 taza"
+            }
+          ],
+          "history": "La cususa nació en la época prehispánica como una chicha de maíz ceremonial que, tras la llegada española, incorporó la destilación en alambiques para convertirse en aguardiente. Durante la colonia y el siglo XX fue perseguida y declarada clandestina por los gobiernos para imponer monopolios licores, obligando a los campesinos de Madriz a producirla en secreto en las montañas, lo que consolidó su identidad como un símbolo de resistencia cultural rural.",
+          "preparation": "Para preparar la cususa de forma tradicional, primero se pone a germinar o se quiebra el maíz grueso y se coloca en un barril junto con el agua y la rapadura de dulce disuelta, dejándolo fermentar tapado en un lugar oscuro durante unos 8 a 15 días hasta obtener la chicha bruja. Una vez fermentado, este líquido se vierte en un alambique artesanal de barro o cobre y se calienta a fuego lento con leña. El calor evapora el alcohol, el cual pasa por un tubo de enfriamiento donde se condensa, goteando finalmente como un licor cristalino y puro de alta graduación listo para embotellar.",
+          "img": "/assets/foods/cususa_madriz.png"
         }
       ]
     },
@@ -1080,38 +1166,75 @@
       "name": "Nueva Segovia",
       "landmark": {
         "name": "Cerro Mogotón",
-        "description": "El punto geográfico más alto de toda Nicaragua, ubicado en la cordillera Dipilto y Jalapa, cubierto de exuberantes bosques de pinos y niebla perpetua.",
-        "img": "/assets/landmarks/nuevasegovia_mogoton.png"
+        "description": "El cerro mogotón es una montaña ubicada en la reserva natural cordillera Dipilto- Jalapa, con su cima propiamente en la línea fronteriza de Nicaragua con Honduras, la parte nicaragüense pertenece al departamento de Nueva segovia y es parte de la cordillera Volcánica, los Maribios, actualmente inactiva. Cuenta con una elevación de 2107 metros sobre el nivel del mar lo que la convierte en la montaña más alta de Nicaragua. Una aventura alucinante representa escalar este pico que mide 2107 metros de altura sobre el nivel del mar. Su recorrido desde la base de cerro hasta la cima tarda unas 7 hora a pie, 3 de subida y 4 de bajada, así que debes calentar un poco antes de emprender la caminata hacía la cima de Nicaragua. Una hazaña cargada de retos, risas, y por supuesto, la diversión está totalmente asegurada.",
+        "img": "/assets/landmarks/cerro_mogoton_nueva_segovia.png"
       },
       "foods": [
         {
-          "name": "Nacatamal Segoviano",
-          "description": "Variante norteña del nacatamal clásico, caracterizada por una masa súper cremosa enriquecida con papas adicionales, cebollas cambray y un toque sutil de naranja agria en el aliño de cerdo.",
+          "name": "La sopa de Cuajada (conocida como sopa de Queso)",
+          "description": "Es un plato tradicional Nicaragüense, muy popular durante la época de cuaresma y semana santa. Este caldo reconfortante se prepara con un bocado de vegetales, masa de maíz, leche, crema y cuajada fresca desmoronada, acompañadas de deliciosas tortitas fritas.",
           "ingredients": [
             {
-              "name": "Masa de maíz tierno molido",
+              "name": "cuajada",
+              "quantity": "1 libra"
+            },
+            {
+              "name": "Masa de Maíz",
+              "quantity": "2 tazas"
+            },
+            {
+              "name": "Cebolla",
+              "quantity": "1 unidad"
+            },
+            {
+              "name": "Chiltoma",
+              "quantity": "1 unidad"
+            },
+            {
+              "name": "Tomates",
+              "quantity": "2 unidades"
+            },
+            {
+              "name": "Achiote",
+              "quantity": "Al gusto"
+            },
+            {
+              "name": "Sal",
+              "quantity": "Al gusto"
+            },
+            {
+              "name": "Agua o caldo",
+              "quantity": "Al gusto"
+            }
+          ],
+          "history": "Nacida durante la época colonial, surgió como una alternativa económica, vegetariana y cumplidora de los perceptos religiosos que prohiben el consumo de carnes rojas.",
+          "preparation": "Mezcla la cuajada desmenuzada con la masa de maíz y forma bolitas pequeñas. Sofríe la cebolla, el tomate y la chiltoma picados con un poco de achiote. Agrega agua o caldo y deja hervir. Añade las bolitas de cuajada y de masa. Cocina durante 15 a 20 minutos hasta que estén cocidas. Rectifica la sal y sirve ccaliente",
+          "img": "/assets/foods/sopa_cuajada_nueva_segovia.png"
+        },
+        {
+          "name": "Rosquillas segovianas",
+          "description ": "Son un bocadillo tradicional del departamento de Nueva segovia, elaborado principalmente con maíz y queso. Se caracterizan por su textura crujiente, su forma de anillo y su sabor ligeramente salado. Son muy populares como acompañamiento del café, y forman parte importante de la gastronomía y cultura del norte de Nicaragua. ",
+          "ingredients ": [
+            {
+              "name": "Maíz cocido",
               "quantity": "2 libras"
             },
             {
-              "name": "Lomo de cerdo jugoso en cubos",
-              "quantity": "1.5 libras"
+              "name": "Queso seco rallado",
+              "quantity": "1 libra"
             },
             {
-              "name": "Tocino o manteca criolla",
-              "quantity": "3/4 taza"
+              "name": "Manteca",
+              "quantity": "½ taza"
             },
             {
-              "name": "Naranjas agrias frescas",
-              "quantity": "3 unidades"
-            },
-            {
-              "name": "Hojas de plátano ahumadas",
-              "quantity": "Las necesarias"
+              "name": "Sal",
+              "quantity": "Al gusto."
             }
           ],
-          "history": "En Nueva Segovia, el nacatamal es un arte. Se diferencia del nacatamal del pacífico por el uso exclusivo de ingredientes de la cordillera y una masa que se cuece más tiempo con jugo de naranja agria silvestre.",
-          "preparation": "1. Adobar el lomo de cerdo con ajo, achiote, orégano y abundante jugo de naranja agria.\n2. Cocinar la masa de maíz con manteca de cerdo, sazonándola con cebollas cambray y chiltomas licuadas.\n3. Armar los nacatamales colocando en las hojas la masa cocida, el lomo adobado, arroz, rodajas de papa, pasas y una ramita de yerbabuena.\n4. Amarrar firmemente en forma rectangular y cocinar en agua hirviendo durante 5 horas completas.",
-          "img": "/assets/foods/nacatamal_segoviano.png"
+          "history": "Con las raíces en la repostería monacal de la Edad media, son un emblema tradicional de la provincia. Destacan principalmente dos variedades históricas: las rosquillas de palo o calderonas, típicas de semana santa, y las rosquillas ciegas de cuéllar, famosas por no llevar agujero.",
+          "preparation": "Muele el maíz cocido hasta obtener una masa fina. Mezcla la masa con el queso rallado, la manteca y la sal. Forma pequeñas rosquillas en forma de aro. Colócalas en una bandeja para hornear. Hornea hasta que estén doradas y crujientes. Deja enfríar antes de servir.",
+          "img": "/assets/foods/rosquillas_segovianas_nueva_segovia.png"
         }
       ]
     },
@@ -1121,7 +1244,7 @@
       "landmark": {
         "name": "Peña de la cruz",
         "description": "La peña de la cruz es un pico de montaña y un lugar turísticohistóricode Nicaraguaal peste de la ciudadde Jinotega con una altitud de 1300 m s.n.m.",
-        "img": ""
+        "img": "project/public/assets/landmarks/jinotega_pena_de_la_cruz.jpg"
       },
       "foods": [
         {
@@ -1199,7 +1322,7 @@
             }
           ],
           "history": "Es una tradicional tortilla de Maíz tierno o elote oeginaria de las comunidades indígenas de Nicaragua, con su epicentro gastronómico en la región norte, particularmente en Jinotega.",
-          "preparation": "",
+          "preparation": "Comienza con la selección de maíz tierno o chilote, cuyos granos se desgrainan y se muelen fina pero firmemente hasta obtener una masa suave y ligeramente húmeda.\nA esta mezcla se le añade una pizca de sal y, dependiendo del gusto y del dulzor natural del maíz, un toque de azúcar para equilibrar los sabores.\n\nPosteriormente, se toma una porción de la masa y se extiende con las manos sobre una hoja de plátano previamente lavada y suavizada al fuego, dándole una forma circular y un grosor medio que garantice una cocción uniforme.\nLuego, se coloca la hoja con la masa directamente sobre un comal o sartén caliente a fuego medio, dejándola cocer por unos minutos hasta que la base se dore y la hoja se tueste ligeramente.\nEn ese punto, se da la vuelta con cuidado para dorar el otro lado, retirando la hoja al final para que la guirila adquiera ese característico color tostado y aroma ahumado.\n\nFinalmente, se retira del fuego y se sirve inmediatamente, bien caliente, acompañada de un buen trozo de cuajada fresca y una cucharada generosa de crema agria.",
           "img": "/assets/foods/guirila_jinotega.png"
         }
       ]
@@ -1210,12 +1333,12 @@
       "landmark": {
         "name": "Mirador el calvario",
         "description": "El mirador y parque Ecológico Cerro El clavario es un santuario natural ubicado en la comunidad Las lomas, al oeste del casco urbano de Matagalpa. Famoso por su clima fresco y su vista panorámica de 180° de la ciudad, es un espacio ideal para el ecoturismo, la relajación y la recreación sana",
-        "img": ""
+        "img": "/assets/landmarks/matagalpa_mirador_el_calvario.jpg"
       },
       "foods": [
         {
           "name": "El Marol",
-          "description": "Un reconfortanteplatillo a base de arroz cocido con frijoles, carne de cerdo o res desmenuzada,  y vegetales, todo mezclado y sofrito. Es muy tradicionalde la zona norte.",
+          "description": "Un reconfortante platillo a base de arroz cocido con frijoles, carne de cerdo o res desmenuzada,  y vegetales, todo mezclado y sofrito. Es muy tradicional de la zona norte.",
           "ingredients": [
             {
               "name": "Maíz tierno (choclo o elote tierno)",
@@ -1234,33 +1357,73 @@
               "quantity": "6 unidades"
             }
           ],
-          "history": " Es una tradicionalquiso nicaragüensepeiginario de la zona centro-norte y occidente del país,  como Matagalp. Históricamente,  es una variante del famoso indio viejo.",
+          "history": " Es una tradicional guiso nicaragüense, originario de la zona centro-norte y occidente del país, como Matagalpa. Históricamente, es una variante del famoso indio viejo.",
           "preparation": "1. Desgranar las mazorcas de maíz tierno y moler los granos crudos hasta obtener una masa pastosa y jugosa (no agregar agua).\n2. Sazonar ligeramente con azúcar y una pizca de sal.\n3. Colocar una porción de masa sobre una hoja de plátano, dándole forma circular, y cubrirla con otra hoja de plátano.\n4. Asar sobre un comal o plancha caliente hasta que el maíz esté firme y dorado por ambos lados. Servir bien caliente coronada con un trozo grueso de cuajada fresca.",
           "img": "/assets/foods/marol_matagalpa.png"
         },
         {
           "name": "Cabeza de Chancho en Pozol",
-          "description": " Una preparaciónespecial hecha con la carne de la cabeza del cerdo, acompañada de maíz pozolero y vegetales.",
+          "description": "Una preparaciónespecial hecha con la carne de la cabeza del cerdo, acompañada de maíz pozolero y vegetales.",
           "ingredients": [
             {
-              "name": "Maíz tierno (choclo o elote tierno)",
-              "quantity": "6 mazorcas"
+              "name": "Cabeza de chancho",
+              "quantity": "3 libras"
             },
             {
-              "name": "Cuajada fresca o queso mozzarella fresco",
-              "quantity": "1/2 libra"
+              "name": "Jugo de naranja agria",
+              "quantity": "1/2 taza"
             },
             {
-              "name": "Azúcar y una pizca de sal",
-              "quantity": "Al gusto"
+              "name": "Achiote diluido",
+              "quantity": "2 cucharadas"
             },
             {
-              "name": "Hojas de plátano limpias",
-              "quantity": "6 unidades"
+              "name": "cabeza de ajo machacada",
+              "quantity": "1 unidad"
+            },
+            {
+              "name": "cebolla",
+              "quantity": "1 unidad"
+            },
+            {
+              "name": "chiltoma",
+              "quantity": "1 unidad"
+            },
+            {
+              "name": "laurel seco",
+              "quantity": "3 hojas"
+            },
+            {
+              "name": "pimienta negra molida",
+              "quantity": "1 cucharadita"
+            },
+            {
+              "name": "Comino en polvo",
+              "quantity": "1 cucharadita"
+            },
+            {
+              "name": "Sal",
+              "quantity": "al gusto"
+            },
+            {
+              "name": " agua",
+              "quantity": "2 tazas"
+            },
+            {
+              "name": "Maíz blanco",
+              "quantity": "2 libras"
+            },
+            {
+              "name": "Cal",
+              "quantity": "1 cucharada"
+            },
+            {
+              "name": " Agua",
+              "quantity": "4 litros"
             }
           ],
           "history": "El pozol con cabeza de chancho es una de las comidas tradicionalesmásarraigadas en el pacíficoy centro de Nicaragua,  Nace de la fusión culinaria de nuestras raíces indígenas chorotegas y nahuas (quienes basaban su dieta en el maíz) y el cerdo traído por los españoles.",
-          "preparation": "1. Desgranar las mazorcas de maíz tierno y moler los granos crudos hasta obtener una masa pastosa y jugosa (no agregar agua).\n2. Sazonar ligeramente con azúcar y una pizca de sal.\n3. Colocar una porción de masa sobre una hoja de plátano, dándole forma circular, y cubrirla con otra hoja de plátano.\n4. Asar sobre un comal o plancha caliente hasta que el maíz esté firme y dorado por ambos lados. Servir bien caliente coronada con un trozo grueso de cuajada fresca.",
+          "preparation": "Comienza con una limpieza exhaustiva en la que se rasura perfectamente la piel para eliminar cualquier rastro de pelo, se retiran los ojos y los sesos, y se lava la pieza frotándola con sal gruesa y limón bajo el chorro de agua fría para eliminar impurezas.\n\nA continuación, la cabeza se corta en trozos medianos y se coloca en una olla grande cubierta con suficiente agua, junto con una cabeza de ajo entera, una cebolla partida a la mitad y un puño de sal para un primer hervor de unos diez minutos, cuyo caldo se desecha junto con la espuma que flote en la superficie para garantizar un sabor limpio.\n\nFinalmente, se vuelve a cubrir la carne con agua limpia y fresca, se añaden nuevas especias como hojas de laurel, pimienta gorda y orégano, y se deja cocer a fuego medio-bajo durante aproximadamente dos o tres horas hasta que la carne esté tan suave que se desprenda fácilmente del hueso, momento en el que se retira, se deshebra o pica al gusto, y queda lista para su posterior integración al caldo de maíz pozolero.",
           "img": "/assets/foods/cabeza_de_chancho_en_pozol_matagalpa.png"
         }
       ]
@@ -1441,7 +1604,7 @@
       "landmark": {
         "name": "El Castillo de la Inmaculada Concepción",
         "description": "Una imponente fortaleza militar colonial española del siglo XVII, construida a orillas del Río San Juan para defender el paso contra piratas del Caribe.",
-        "img": ""
+        "img": "/assets/landmarks/castillo_inmaculada_concepcion_rio_san_juan.png"
       },
       "foods": [
         {
