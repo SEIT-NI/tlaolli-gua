@@ -1,4 +1,4 @@
-import VectorMapTest from './components/VectorMapTest';
+
 import { useState, useEffect } from 'react';
 import NicaraguaMap from './components/NicaraguaMap';
 import MapDecorations from './components/MapDecorations';
@@ -54,9 +54,6 @@ export default function App() {
   const searchParams = new URLSearchParams(window.location.search);
   const showDecorations = searchParams.has('with-deco');
 
-  if (window.location.pathname === '/vectorial-map') {
-    return <VectorMapTest />;
-  }
 
   return (
     <div className="app-container">
@@ -90,7 +87,7 @@ export default function App() {
                 selectedDepartment={selectedDepartment}
                 onSelectDepartment={handleSelectDepartment}
                 isSmall={false}
-                //dev={true}
+                dev={false}
               />
             </div>
           </div>
