@@ -695,7 +695,7 @@
             }
           ],
           "history": "El fresco de mango en Rivas nació a mediados del siglo X|X, cuando el fruto llegó de Asia como cortina rompevientos para el cacao; su posterior sobreproducción en este fértil suelo llevó a las familias a licuar la pulpa madura para evitar el desperdicio, convirtiendo un recurso agrícola en la bebida icónica de la Ciudad de los Mangos.",
-          "preparación": "Primero lave y pele tres mangos maduros, extraiga la pulpa y licúela con un litro de agua fría y media taza de azúcar al gusto. Posteriormente, cuele la mezcla con un colador fino para eliminar todas las hebras de la fruta, agregue una pizca de sal para resaltar el dulzor natural y revuelva bien antes de seervirlo inmediatamente con abundante hielo picado.",
+          "preparation": "Primero lave y pele tres mangos maduros, extraiga la pulpa y licúela con un litro de agua fría y media taza de azúcar al gusto. Posteriormente, cuele la mezcla con un colador fino para eliminar todas las hebras de la fruta, agregue una pizca de sal para resaltar el dulzor natural y revuelva bien antes de seervirlo inmediatamente con abundante hielo picado.",
           "img": "/assets/foods/fresco_de_mango_rivas.png"
         }
       ]
@@ -867,7 +867,7 @@
       ]
     },
     {
-      "id": "estelí",
+      "id": "esteli",
       "name": "Estelí",
       "landmark": {
         "name": "Salto Estanzuela",
@@ -1213,8 +1213,8 @@
         },
         {
           "name": "Rosquillas segovianas",
-          "description ": "Son un bocadillo tradicional del departamento de Nueva segovia, elaborado principalmente con maíz y queso. Se caracterizan por su textura crujiente, su forma de anillo y su sabor ligeramente salado. Son muy populares como acompañamiento del café, y forman parte importante de la gastronomía y cultura del norte de Nicaragua. ",
-          "ingredients ": [
+          "description": "Son un bocadillo tradicional del departamento de Nueva segovia, elaborado principalmente con maíz y queso. Se caracterizan por su textura crujiente, su forma de anillo y su sabor ligeramente salado. Son muy populares como acompañamiento del café, y forman parte importante de la gastronomía y cultura del norte de Nicaragua. ",
+          "ingredients": [
             {
               "name": "Maíz cocido",
               "quantity": "2 libras"
@@ -1244,7 +1244,7 @@
       "landmark": {
         "name": "Peña de la cruz",
         "description": "La peña de la cruz es un pico de montaña y un lugar turísticohistóricode Nicaraguaal peste de la ciudadde Jinotega con una altitud de 1300 m s.n.m.",
-        "img": "project/public/assets/landmarks/jinotega_pena_de_la_cruz.jpg"
+        "img": "/assets/landmarks/jinotega_pena_de_la_cruz.jpg"
       },
       "foods": [
         {

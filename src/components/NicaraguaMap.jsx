@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './LayeredMap.css';
 import { DEPARTMENTS_HOTSPOTS } from '../data/mapVectors';
 
@@ -38,89 +38,6 @@ function getMatrix3d(W, H, pts) {
     a31,   a32,   0, 1
   ].map(n => Number(n).toFixed(6));
 }
-
-const CornerBracket = ({ className }) => (
-  <svg 
-    className={`ui-corner-bracket ${className}`} 
-    viewBox="0 0 100 100" 
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <defs>
-      <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#ffeba8" />
-        <stop offset="20%" stopColor="#f3b735" />
-        <stop offset="60%" stopColor="#d5861b" />
-        <stop offset="100%" stopColor="#8a4d06" />
-      </linearGradient>
-      <filter id="dropShadowBracket" x="-20%" y="-20%" width="140%" height="140%">
-        <feDropShadow dx="2" dy="4" stdDeviation="3" floodColor="#000" floodOpacity="0.6"/>
-      </filter>
-    </defs>
-
-    {/* Main Bracket Shape */}
-    <path 
-      d="
-        M 4,80
-        L 4,16
-        Q 4,4 16,4
-        L 80,4
-        Q 96,4 96,20
-        Q 96,36 80,36
-        L 48,36
-        Q 36,36 36,48
-        L 36,80
-        Q 36,96 20,96
-        Q 4,96 4,80
-        Z
-      "
-      fill="url(#goldGrad)"
-      stroke="#3d220e"
-      strokeWidth="4"
-      filter="url(#dropShadowBracket)"
-      strokeLinejoin="round"
-    />
-    
-    {/* Inner Highlight (Top & Left) */}
-    <path 
-      d="
-        M 8,80
-        L 8,16
-        Q 8,8 16,8
-        L 80,8
-      "
-      fill="none"
-      stroke="#ffffff"
-      strokeOpacity="0.7"
-      strokeWidth="3"
-      strokeLinecap="round"
-    />
-
-    {/* Inner Shadow (Bottom & Right) */}
-    <path 
-      d="
-        M 80,32
-        L 48,32
-        Q 32,32 32,48
-        L 32,80
-      "
-      fill="none"
-      stroke="#5a3100"
-      strokeOpacity="0.6"
-      strokeWidth="3"
-      strokeLinecap="round"
-    />
-
-    {/* Screws / Nails */}
-    <circle cx="76" cy="20" r="5" fill="#8a4d06" stroke="#3d220e" strokeWidth="2" />
-    <circle cx="75" cy="19" r="2" fill="#fff" opacity="0.5" />
-    
-    <circle cx="20" cy="76" r="5" fill="#8a4d06" stroke="#3d220e" strokeWidth="2" />
-    <circle cx="19" cy="75" r="2" fill="#fff" opacity="0.5" />
-    
-    <circle cx="20" cy="20" r="6" fill="#8a4d06" stroke="#3d220e" strokeWidth="2" />
-    <circle cx="19" cy="19" r="2.5" fill="#fff" opacity="0.5" />
-  </svg>
-);
 
 export default function NicaraguaMap({ selectedDepartment, onSelectDepartment, isSmall, hideBackground = false, dev = false }) {
   const wrapperRef = React.useRef(null);
