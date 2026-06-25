@@ -1,0 +1,7 @@
+{
+  "name": "tlaolli-gua",
+  "compatibility_date": "2024-06-25",
+  "assets": {
+    "directory": "./dist"
+  }
+}
