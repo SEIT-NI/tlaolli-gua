@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect, useRef } from 'react';
+import { useMemo, useEffect, useRef } from 'react';
 import './MapDecorations.css';
 
 const DECORATION_TYPES = {
@@ -141,6 +141,7 @@ const MapDecorations = ({ enableBirds = true, numBirds = 10, birdSpeed = 1.5, bi
     
     // Generar islas en los bordes
     for (let i = 0; i < 8; i++) {
+      // eslint-disable-next-line react-hooks/purity
       const islandId = Math.floor(Math.random() * DECORATION_TYPES.ISLAND.count) + 1;
       items.push({
         id: `island-${i}`,
@@ -153,6 +154,7 @@ const MapDecorations = ({ enableBirds = true, numBirds = 10, birdSpeed = 1.5, bi
 
     // Generar olas en los bordes
     for (let i = 0; i < 10; i++) {
+      // eslint-disable-next-line react-hooks/purity
       const waveId = Math.floor(Math.random() * DECORATION_TYPES.WAVE.count) + 1;
       items.push({
         id: `wave-${i}`,

@@ -48,7 +48,8 @@
           ],
           "history": "Tras el devastador terremoto de Managua en 1931. La población necesitaba opciones de comida accesibles y rápidas. Las cocinas improvisadas en las aceras se volvieron el alma de los Barrios, ofreciendo productos basicos.",
           "preparation": "La carne se sazona con ajo, cebolla y especias, luego se asa a la parrilla o se fríe. Se acompaña con gallo pinto, queso frito, tajadas y ensalada fresca. Todo se sirve junto como un plato abundante y representativo de la comida popular nicaragüense.",
-          "img": "/assets/foods/fritanga_managua.png"
+          "img": "/assets/foods/fritanga_managua.png",
+          "id": "fritanga"
         },
         {
           "name": "Enchilada",
@@ -105,7 +106,8 @@
           ],
           "history": "Las enchiladas nicaragüenses tienen influencia de la cocina indígena basada en el maíz y de las técnicas culinarias introducidas durante la época colonial. A diferencia de las enchiladas mexicanas, en Nicaragua se caracterizan por ser fritas y rellenas principalmente de carne.",
           "preparation": "Se cocina la carne molida con cebolla y chile dulce. Las tortillas se rellenan con esta mezcla y un poco de arroz. Luego se pasan por una mezcla de huevo y se fríen hasta quedar doradas. Se sirven con ensalada de repollo y salsa de tomate.",
-          "img": "/assets/foods/enchilada_managua.png"
+          "img": "/assets/foods/enchilada_managua.png",
+          "id": "enchilada"
         },
         {
           "name": "Tacos",
@@ -150,7 +152,8 @@
           ],
           "history": "Los tacos nicaragüenses tienen raíces en la cocina popular del país y se diferencian de los tacos mexicanos por su preparación frita. Son muy comunes en celebraciones familiares y ventas de comida tradicional.",
           "preparation": "La carne se cocina con especias y vegetales. Las tortillas se rellenan, se enrollan y se fríen hasta quedar crujientes. Se acompañan con ensalada de repollo curtido y salsa de tomate",
-          "img": "/assets/foods/tacos_managua.png"
+          "img": "/assets/foods/tacos_managua.png",
+          "id": "tacos"
         }
       ]
     },
@@ -218,7 +221,8 @@
           ],
           "history": "La sopa de mondongo tiene origen en la época colonial y refleja la influencia española en el aprovechamiento integral del ganado. Con el tiempo, los nicaragüenses incorporaron productos autóctonos como la yuca y el quequisque, creando una versión propia y muy apreciada.",
           "preparation": "El mondongo se limpia cuidadosamente y se cocina durante varias horas hasta que quede suave. Luego se agregan las verduras y condimentos. La sopa se cocina lentamente para que todos los ingredientes absorban los sabores.",
-          "img": "/assets/foods/sopa_de_mondongo_masaya.png"
+          "img": "/assets/foods/sopa_de_mondongo_masaya.png",
+          "id": "sopa-de-mondongo"
         },
         {
           "name": "Nacatamal",
@@ -279,7 +283,8 @@
           ],
           "history": "El nacatamal es considerado uno de los platos más emblemáticos de Nicaragua. Su origen combina tradiciones indígenas relacionadas con el maíz y técnicas culinarias heredadas de los españoles. Desde hace siglos es una comida típica de los fines de semana, celebraciones familiares y festividades nacionales.",
           "preparation": "La masa se mezcla con manteca y achiote. Sobre una hoja de plátano se coloca la masa y se agregan los demás ingredientes. Se envuelve cuidadosamente formando un paquete y se cocina en agua hirviendo durante 4 - 5 horas",
-          "img": "/assets/foods/nacatamal_masaya.png"
+          "img": "/assets/foods/nacatamal_masaya.png",
+          "id": "nacatamal"
         },
         {
           "name": "Indio Viejo",
@@ -332,7 +337,8 @@
           ],
           "history": "El Indio Viejo es uno de los platillos más antiguos de Nicaragua. Su origen se remonta a las culturas indígenas prehispánicas. Según una tradición popular, el nombre proviene de una leyenda en la que indígenas ocultaban carne dentro de una preparación de maíz para evitar que los conquistadores españoles la encontraran.",
           "preparation": "La carne se cocina y desmenuza. Se prepara un sofrito con vegetales y especias, al que se agrega la carne. Luego se incorpora masa de maíz disuelta en caldo para espesar el platillo. Finalmente se añade hierbabuena para darle su sabor característico.",
-          "img": "/assets/foods/indio_viejo_masaya.png"
+          "img": "/assets/foods/indio_viejo_masaya.png",
+          "id": "indio-viejo"
         }
       ]
     },
@@ -392,7 +398,8 @@
           ],
           "history": "Su origen combina técnicas prehispánicas de asado a las brasas con la introducción de la mojarra (tilapia) desde África, convirtiéndose en un clásico de la gastronomía costera y lacustre.",
           "preparation": " Realiza 3 cortes diagonales por cada lado del pescado, que lleguen al esqueleto, luego mezcla en un bol todos los ingredientes menos el perejil ni las ruedas del limón.Aplicamel aderezo con ayuda de una brocha por cada hendidura, cada lado y la parte interna de la mojarra. Despues en la parte interna de la Mojarda coloca las ruedas de limón , añade el perejil por cada ranura y la parte interna del pescado, ahora aplica un poco de aceite en las caras de las mojarra, el aceite es para bañar la parrilla, esto evitara que se pegue la piel de la mojarra, cocina por cada lado, el tiempo dependera de la intensidad de las brasas, mínimo 10 minutos si no está muy alto el fuego, finalmente baja la tapa del asador y dejalo por 4 minutos para que se cocine mejor interiormente.",
-          "img": "/assets/foods/mojarra_asada_granada.jpg"
+          "img": "/assets/foods/mojarra_asada_granada.jpg",
+          "id": "mojarra-asada"
         },
         {
           "name": "Arroz de Gaspar",
@@ -433,7 +440,8 @@
           ],
           "history": "El origen de arroz con gaspar se encuentra en la profunda fusión mestiza y cultural de Nicaragua, ligada estrechamente a la geografía lacustre del país y a los mandatos religiosos coloniles.",
           "preparation": "En una olla coloca suficiente agua e hierbe junto con los tomates, las cebollas y las chiltoma. Una vez esten cosidos, se agrega el arroz y se cocina hasta que este listo, luego cocina el gaspar y una vez listo, aplica en pequeños trozos para agregarlo al arroz.",
-          "img": "/assets/foods/arroz_con_gaspar_granada.jpg"
+          "img": "/assets/foods/arroz_con_gaspar_granada.jpg",
+          "id": "arroz-de-gaspar"
         }
       ]
     },
@@ -489,7 +497,8 @@
           ],
           "history": "Los origenes del guiso se remontan a la epoca colonial. Según historiadores y gastrónomos este alimento se les preparaba a personas de avanzada edad por su suave textura y los varios nutrientes que contiene. Posteriormente se empezo a compartir en fiestas patronales, rezos y otras actividades célebres.",
           "preparation": "Lave con naranja agria y ponga a cocer carne con cebolla, chiltoma y ajo. Cuando la carne este fría amase la harina hasta que este media sólida desmenuce la carne, triture los tomares rodajee la cebolla restante y un diente decajo y revuelva. Ponga una sartén con aceite hasta que este jugoso y vierta sobre esto la carne y la masa junto con un poco de jugo de naranja agria. Póngalos a fuego lento durante 15 minutos meneándolo para evitar que se pegue.",
-          "img": "/assets/foods/masa_cazuela_carazo.jpg"
+          "img": "/assets/foods/masa_cazuela_carazo.jpg",
+          "id": "masa-cazuela"
         },
         {
           "name": "baho",
@@ -554,7 +563,8 @@
           ],
           "history": "El baho surgió como una fusión entre la cocina africana y lamcocina de los pueblos índigenaa procedentes del sur del continente y que poblaron la región central y caribe de Nicaragua.",
           "preparation": "preparar la carne, cortando en rodajas finas. prepara un adobo con jugo de naranja agria, ajo, cebolla, tomates, pimienta,todo licuado o picado, luego marina la carne en el adobo durante toda la noche(de 12 a 24 horas), para que penetre bien el sabor, pela y corta la yuca en trozos grandes, los platanos verdes y maduros en mitades o trozos grandes,cortar cebolla, tomate y pimiento em rodajas.Despues en una olla grande coloca ramas de guayaba o aguacate en el fondo para levantar las hojas de plátano y evitar que queden en contacto directo con el agua, cubre con hojas de platano frescas, formando una especie de bolsa, coloca en capas la yuca, platanos verdes, platanos maduros con la cáscara y luego la carne marinada. Añade las rodajas de cebolla, tomate y pimiento encima, y cierra bien con más hojas de platano. Ahora añade agua en la base de la olla para generar vapor, sin que toque directamente los ingredientes dentro de las hojas, cocina al vapor con la olla tapada durante 3 o 4 horas, hasta que la carne este muy suave y la yuca se deshaga al pincharla y finalmente sirve.",
-          "img": "/assets/foods/baho_carazo.jpg"
+          "img": "/assets/foods/baho_carazo.jpg",
+          "id": "baho"
         }
       ]
     },
@@ -614,7 +624,8 @@
           ],
           "history": "El ceviche de Rivas nació de la necesidad de los pescadores artesanales del Pacífico y del gran lago de consumir su pesca diaria de forma inmediata y sin fuego. Esta práctica de subsistencia costera evolucionó al integrarse en los hogares con ingredientes locales como el limón criollo, el tomate y la salsa inglesa. Finalmente, con el auge turístico de la región a finales del siglo XX, el platillo se transformó en un referente gastronómico de la zona, incorporando toques innovadores y tropicales.",
           "preparation": "Corta la libra de pescado firme en cubos pequeños, sumérgelos en la taza de jugo de limón criollo con sal y pimienta, y refrigéralos de 15 a 30 minutos para marinarlos. Luego, escurre parte del jugo e incorpora la cebolla, la chiltoma, el tomate y el culantro finalmente picados. Finalmente, añade las dos cucharadas de salsa inglesa, el chile al gusto, mezcla todo uniformemente y sírvelo de inmediato bien frío junto a las galletas de soda o las tajadas de plátano. ",
-          "img": "/assets/foods/ceviche_rivas.png"
+          "img": "/assets/foods/ceviche_rivas.png",
+          "id": "ceviche"
         },
         {
           "name": "Nacatamal de plátano",
@@ -667,7 +678,8 @@
           ],
           "history": "El nacatamal de plátano nació en Rivas, específicamente en el municipio de Buenos Aires, como una adaptación creativa de la receta indígena tradicional ante la abundancia local de plantaciones de plátano. Los pobladores sustituyeron el maíz por el plátano verde rallado, creando una variante culinaria única que inicialmente se consumía durante la escasez de granos básicos y que hoy en día es un símbolo de identidad cultural y orgullo festivo.",
           "preparation": "Primero se rallan o muelen los plátanos verdes crudos y se mezclan vigorosamente con la manteca de cerdo, el jugo de naranja agria, el achiote, el ajo, la cebolla y la chiltoma licuadas hasta obtener una masa suave, sazonada y homogénea. Después, se colocan dos cucharadas grandes de esta masa sobre hojas de plátano previamente suavizadas al fuego, agregando encima la carne marinada, el arroz remojado, rodajas de papa, cebolla, chiltoma y hojas de hierbabuena. Finalmente, se envuelven las hojas firmemente en forma de paquete, se amarran en cruz con mecate y se cocinan al vapor en una olla grande con agua hirviendo durante aproximadamente tres a cuatro horas hasta que la masa esté completamente firme y cocida.",
-          "img": "/assets/foods/nacatamal_de_platano_rivas.png"
+          "img": "/assets/foods/nacatamal_de_platano_rivas.png",
+          "id": "nacatamal-de-platano"
         },
         {
           "name": "Fresco de mango",
@@ -696,7 +708,8 @@
           ],
           "history": "El fresco de mango en Rivas nació a mediados del siglo X|X, cuando el fruto llegó de Asia como cortina rompevientos para el cacao; su posterior sobreproducción en este fértil suelo llevó a las familias a licuar la pulpa madura para evitar el desperdicio, convirtiendo un recurso agrícola en la bebida icónica de la Ciudad de los Mangos.",
           "preparation": "Primero lave y pele tres mangos maduros, extraiga la pulpa y licúela con un litro de agua fría y media taza de azúcar al gusto. Posteriormente, cuele la mezcla con un colador fino para eliminar todas las hebras de la fruta, agregue una pizca de sal para resaltar el dulzor natural y revuelva bien antes de seervirlo inmediatamente con abundante hielo picado.",
-          "img": "/assets/foods/fresco_de_mango_rivas.png"
+          "img": "/assets/foods/fresco_de_mango_rivas.png",
+          "id": "fresco-de-mango"
         }
       ]
     },
@@ -752,7 +765,8 @@
           ],
           "history": "Los tamales pizques tienen origen en las tradiciones indígenas mesoamericanas, donde el maíz era la base de la alimentación. Con el paso del tiempo, en Nicaragua se popularizó esta versión sencilla rellena de frijoles, convirtiéndose en una comida económica, nutritiva y representativa de la gastronomía nacional.",
           "preparation": "Primero cocinar los frijoles y molerlos hasta obtener una pasta espesa. Preparar la masa de maíz y agregar sal al gusto. Extender una porción de masa sobre una hoja de plátano. Colocar una cucharada de frijoles en el centro. Cubrir con más masa y envolver cuidadosamente con la hoja. Amarrar los tamales si es necesario. Colocarlos en una olla con agua y cocinarlos durante aproximadamente 1 a 2 horas. Dejar reposar unos minutos antes de servir.",
-          "img": "/assets/foods/tamales_pizques_chinandega.png"
+          "img": "/assets/foods/tamales_pizques_chinandega.png",
+          "id": "tamales-pisques"
         },
         {
           "name": "Toncua con miel",
@@ -785,7 +799,8 @@
           ],
           "history": "Surgió como una forma de aprovechar las frutas locales y el dulce de caña, un ingrediente muy común en la gastronomía nicaragüense. Con el tiempo se convirtió en un símbolo gastronómico de la región, al punto de ser reconocido oficialmente como el dulce típico de Chinandega.",
           "preparation": "1.Lavar bien las toncuas.\n2.Colocarlas en una olla con agua.\n3.Agregar el dulce de caña y las especias.\n4.Cocinar a fuego lento hasta que el dulce se derrita y se forme una miel espesa.\n5.Dejar que las toncuas absorban la miel hasta quedar suaves y brillantes.\n6.Servir frío o temperatura ambiente.",
-          "img": "/assets/foods/toncua_en_miel_chinandega.png"
+          "img": "/assets/foods/toncua_en_miel_chinandega.png",
+          "id": "toncua-con-miel"
         }
       ]
     },
@@ -829,7 +844,8 @@
           ],
           "history": "El quesillo es especialmente famoso en Nagarote, donde se ha elaborado durante generaciones. Con el tiempo se convirtió en uno de los alimentos típicos más conocidos del país.",
           "preparation": "Primero se debe calentar la tortilla. Colocar el quesillo en el centro para que se derrita ligeramente. Agregar la cebolla encurtida, añadir crema y una pizca de sal y por ultimo enrollar la tortilla y servir.",
-          "img": "/assets/foods/quesillo_leon.png"
+          "img": "/assets/foods/quesillo_leon.png",
+          "id": "quesillo"
         },
         {
           "name": "Chancho con yuca",
@@ -862,7 +878,8 @@
           ],
           "history": "El chancho con yuca es una comida tradicional presente en muchas fiestas patronales y celebraciones familiares de Nicaragua.",
           "preparation": "Primero se debe sazonar la carne de cerdo con ajo y sal. Luego cocinarla hasta que este suave o freírla hasta dorarla, pelar y hervir la yuca hasta que quede tierna, preparar una ensalada de repollo y tomate. Por último servir la carne junto con la yuca y la ensalada.",
-          "img": "/assets/foods/chancho_con_yuca_leon.png"
+          "img": "/assets/foods/chancho_con_yuca_leon.png",
+          "id": "chancho-con-yuca"
         }
       ]
     },
@@ -946,7 +963,8 @@
           ],
           "history": "La montuca es un tamal tradicionalde maíz tierno originario de Centroaméric. Su historia destacada por ser un platillo mestizo qué combina las técnicas prehispánicas de cultivo y cocción del maíz, con los ingredientes traídos por los españoles en el siglo XVI, como el cerdo y los lácteos.",
           "preparation": "1. Moler juntos el maíz tostado y los granos de cacao hasta obtener un polvo muy fino.\n2. Mezclar el polvo resultante con agua fría filtrada, agregar el jengibre fresco rallado y remover enérgicamente.\n3. Endulzar con el dulce de rapadura disuelto en agua tibia y enfriar con abundante hielo antes de servir.",
-          "img": "/assets/foods/montuca_esteli.png"
+          "img": "/assets/foods/montuca_esteli.png",
+          "id": "montuca"
         },
         {
           "name": "Sopa de gallina india con albóndigas",
@@ -1035,7 +1053,8 @@
           ],
           "history": "La sopa de gallina india con albóndigas es un emblema de la cocina tradicional nicaragüense, nacida de la fusión entre las costumbres indígenas precolombinas (uso del maíz) y las aportaciones españolas (aves de corral y técnicas de carnes picadas). Su historia está profundamente ligada a la vida rural y a las celebraciones familiares.",
           "preparation": "1. Moler juntos el maíz tostado y los granos de cacao hasta obtener un polvo muy fino.\n2. Mezclar el polvo resultante con agua fría filtrada, agregar el jengibre fresco rallado y remover enérgicamente.\n3. Endulzar con el dulce de rapadura disuelto en agua tibia y enfriar con abundante hielo antes de servir.",
-          "img": "/assets/foods/sopa_de_gallina_india_con_albondigas_esteli.png"
+          "img": "/assets/foods/sopa_de_gallina_india_con_albondigas_esteli.png",
+          "id": "sopa-de-gallina-india-con-albondigas"
         }
       ]
     },
@@ -1083,7 +1102,8 @@
           ],
           "history": "Nacidas en la década de 1930 de la mano de doña Vitelia Galo, las rosquillas de Somoto surgieron de la fusión colonial entre el maíz nativo y los lácteos españoles. Lo que inició como una solución familiar para aprovechar el excedente de queso y maíz en Madriz, evolucionó gracias al relevo generacional en una industria artesanal que hoy sostiene la economía de la región y es un símbolo cultural de Nicaragua.",
           "preparation": "Para preparar las rosquillas de Somoto, se mezcla la harina de maíz con el queso seco rallado y el polvo de hornear, integrando luego la mantequilla, los huevos y la leche gradualmente hasta obtener una masa suave, homogénea y moldeable. A continuación, se toman pequeñas porciones para estirar bastoncitos con las manos y unir sus extremos formando los tradicionales anillos, mientras que para las viejitas se hacen discos planos con un borde levantado que se rellena con dulce de rapadura rallado. Finalmente, las piezas se colocan en bandejas y se hornean a fuego medio (idealmente en horno de leña) hasta que estén doradas, retirándolas brevemente para dejarlas enfriar un poco antes de un segundo horneado a baja temperatura, proceso clave que les otorga su textura crujiente y tostada tan característica.",
-          "img": "/assets/foods/rosquillas_sonotenas_madriz.png"
+          "img": "/assets/foods/rosquillas_sonotenas_madriz.png",
+          "id": "rosquillas-somotenas"
         },
         {
           "name": "Caure",
@@ -1132,7 +1152,8 @@
           ],
           "history": "El caure es un platillo ceremonial prehispánico heredado de las comunidades indígenas chorotegas de Madriz, quienes lo consideraban un manjar de los dioses. Originalmente elaborado con maíz criollo y carnes de caza como el venado, evolucionó con la llegada española al incorporar la res y la gallina, manteniéndose hasta hoy en las zonas rurales como una comida comunitaria reservada para festividades y la Cuaresma.",
           "preparation": "Para preparar el caure, primero se cuece la carne de res o gallina en una olla grande con agua, ajo y sal hasta que esté suave, retirándola luego para desmenuzarla o cortarla en trozos pequeños. Paralelamente, se tuesta el maíz en un comal, se muele de forma gruesa y se disuelve en un poco de caldo frío o agua para evitar grumos, incorporándolo después gradualmente a la olla de caldo hirviendo mientras se menea constantemente para que espese sin ahumarse ni pegarse. Finalmente, se regresa la carne a la olla junto con los tomates, cebollas, chiltomas y el achiote, dejando hervir el conjunto a fuego lento hasta que los vegetales estén cocidos, y se retira del fuego añadiendo el jugo de naranja agria y la hierbabuena fresca para darle su toque aromático y ácido característico.",
-          "img": "/assets/foods/caure_madriz.png"
+          "img": "/assets/foods/caure_madriz.png",
+          "id": "caure"
         },
         {
           "name": "Cususa",
@@ -1157,7 +1178,8 @@
           ],
           "history": "La cususa nació en la época prehispánica como una chicha de maíz ceremonial que, tras la llegada española, incorporó la destilación en alambiques para convertirse en aguardiente. Durante la colonia y el siglo XX fue perseguida y declarada clandestina por los gobiernos para imponer monopolios licores, obligando a los campesinos de Madriz a producirla en secreto en las montañas, lo que consolidó su identidad como un símbolo de resistencia cultural rural.",
           "preparation": "Para preparar la cususa de forma tradicional, primero se pone a germinar o se quiebra el maíz grueso y se coloca en un barril junto con el agua y la rapadura de dulce disuelta, dejándolo fermentar tapado en un lugar oscuro durante unos 8 a 15 días hasta obtener la chicha bruja. Una vez fermentado, este líquido se vierte en un alambique artesanal de barro o cobre y se calienta a fuego lento con leña. El calor evapora el alcohol, el cual pasa por un tubo de enfriamiento donde se condensa, goteando finalmente como un licor cristalino y puro de alta graduación listo para embotellar.",
-          "img": "/assets/foods/cususa_madriz.png"
+          "img": "/assets/foods/cususa_madriz.png",
+          "id": "cususa"
         }
       ]
     },
@@ -1209,7 +1231,8 @@
           ],
           "history": "Nacida durante la época colonial, surgió como una alternativa económica, vegetariana y cumplidora de los perceptos religiosos que prohiben el consumo de carnes rojas.",
           "preparation": "Mezcla la cuajada desmenuzada con la masa de maíz y forma bolitas pequeñas. Sofríe la cebolla, el tomate y la chiltoma picados con un poco de achiote. Agrega agua o caldo y deja hervir. Añade las bolitas de cuajada y de masa. Cocina durante 15 a 20 minutos hasta que estén cocidas. Rectifica la sal y sirve ccaliente",
-          "img": "/assets/foods/sopa_cuajada_nueva_segovia.png"
+          "img": "/assets/foods/sopa_cuajada_nueva_segovia.png",
+          "id": "la-sopa-de-cuajada-conocida-como-sopa-de-queso"
         },
         {
           "name": "Rosquillas segovianas",
@@ -1234,7 +1257,8 @@
           ],
           "history": "Con las raíces en la repostería monacal de la Edad media, son un emblema tradicional de la provincia. Destacan principalmente dos variedades históricas: las rosquillas de palo o calderonas, típicas de semana santa, y las rosquillas ciegas de cuéllar, famosas por no llevar agujero.",
           "preparation": "Muele el maíz cocido hasta obtener una masa fina. Mezcla la masa con el queso rallado, la manteca y la sal. Forma pequeñas rosquillas en forma de aro. Colócalas en una bandeja para hornear. Hornea hasta que estén doradas y crujientes. Deja enfríar antes de servir.",
-          "img": "/assets/foods/rosquillas_segovianas_nueva_segovia.png"
+          "img": "/assets/foods/rosquillas_segovianas_nueva_segovia.png",
+          "id": "rosquillas-segovianas"
         }
       ]
     },
@@ -1294,7 +1318,8 @@
           ],
           "history": "La sopa de huevo es un platillo tradicional y económico arrigado de la cocina popular Nicaragüense. Nació como una alternativa nutritiva y accesible en los hogares, combinando caldo de verduras,  lácteos (como crema y leche) y huevos. Existen 2 versiones principales: la sopa de huevo de gallina y la sopa de \"huevo de toro\".",
           "preparation": "1. Hervir la gallina troceada en una olla grande con agua, ajo, cebolla y sal hasta que la carne esté tierna.\n2. Retirar la gallina y añadir las verduras al caldo hirviendo.\n3. Para las albóndigas: mezclar la masa de maíz con el queso rallado, yerbabuena picada fina y caldo caliente hasta formar esferas suaves.\n4. Incorporar las albóndigas una a una al caldo hirviendo suavemente para evitar que se desbaraten. Cocinar hasta que las albóndigas floten y estén completamente cocidas.",
-          "img": "/assets/foods/sopa_de_huevo_jinotega.png"
+          "img": "/assets/foods/sopa_de_huevo_jinotega.png",
+          "id": "sopa-de-huevo"
         },
         {
           "name": "Güirila",
@@ -1323,7 +1348,8 @@
           ],
           "history": "Es una tradicional tortilla de Maíz tierno o elote oeginaria de las comunidades indígenas de Nicaragua, con su epicentro gastronómico en la región norte, particularmente en Jinotega.",
           "preparation": "Comienza con la selección de maíz tierno o chilote, cuyos granos se desgrainan y se muelen fina pero firmemente hasta obtener una masa suave y ligeramente húmeda.\nA esta mezcla se le añade una pizca de sal y, dependiendo del gusto y del dulzor natural del maíz, un toque de azúcar para equilibrar los sabores.\n\nPosteriormente, se toma una porción de la masa y se extiende con las manos sobre una hoja de plátano previamente lavada y suavizada al fuego, dándole una forma circular y un grosor medio que garantice una cocción uniforme.\nLuego, se coloca la hoja con la masa directamente sobre un comal o sartén caliente a fuego medio, dejándola cocer por unos minutos hasta que la base se dore y la hoja se tueste ligeramente.\nEn ese punto, se da la vuelta con cuidado para dorar el otro lado, retirando la hoja al final para que la guirila adquiera ese característico color tostado y aroma ahumado.\n\nFinalmente, se retira del fuego y se sirve inmediatamente, bien caliente, acompañada de un buen trozo de cuajada fresca y una cucharada generosa de crema agria.",
-          "img": "/assets/foods/guirila_jinotega.png"
+          "img": "/assets/foods/guirila_jinotega.png",
+          "id": "guirila"
         }
       ]
     },
@@ -1359,7 +1385,8 @@
           ],
           "history": " Es una tradicional guiso nicaragüense, originario de la zona centro-norte y occidente del país, como Matagalpa. Históricamente, es una variante del famoso indio viejo.",
           "preparation": "1. Desgranar las mazorcas de maíz tierno y moler los granos crudos hasta obtener una masa pastosa y jugosa (no agregar agua).\n2. Sazonar ligeramente con azúcar y una pizca de sal.\n3. Colocar una porción de masa sobre una hoja de plátano, dándole forma circular, y cubrirla con otra hoja de plátano.\n4. Asar sobre un comal o plancha caliente hasta que el maíz esté firme y dorado por ambos lados. Servir bien caliente coronada con un trozo grueso de cuajada fresca.",
-          "img": "/assets/foods/marol_matagalpa.png"
+          "img": "/assets/foods/marol_matagalpa.png",
+          "id": "el-marol"
         },
         {
           "name": "Cabeza de Chancho en Pozol",
@@ -1424,7 +1451,8 @@
           ],
           "history": "El pozol con cabeza de chancho es una de las comidas tradicionalesmásarraigadas en el pacíficoy centro de Nicaragua,  Nace de la fusión culinaria de nuestras raíces indígenas chorotegas y nahuas (quienes basaban su dieta en el maíz) y el cerdo traído por los españoles.",
           "preparation": "Comienza con una limpieza exhaustiva en la que se rasura perfectamente la piel para eliminar cualquier rastro de pelo, se retiran los ojos y los sesos, y se lava la pieza frotándola con sal gruesa y limón bajo el chorro de agua fría para eliminar impurezas.\n\nA continuación, la cabeza se corta en trozos medianos y se coloca en una olla grande cubierta con suficiente agua, junto con una cabeza de ajo entera, una cebolla partida a la mitad y un puño de sal para un primer hervor de unos diez minutos, cuyo caldo se desecha junto con la espuma que flote en la superficie para garantizar un sabor limpio.\n\nFinalmente, se vuelve a cubrir la carne con agua limpia y fresca, se añaden nuevas especias como hojas de laurel, pimienta gorda y orégano, y se deja cocer a fuego medio-bajo durante aproximadamente dos o tres horas hasta que la carne esté tan suave que se desprenda fácilmente del hueso, momento en el que se retira, se deshebra o pica al gusto, y queda lista para su posterior integración al caldo de maíz pozolero.",
-          "img": "/assets/foods/matagalpa_cabeza_de_cerdo_en_pozol.jpg"
+          "img": "/assets/foods/matagalpa_cabeza_de_cerdo_en_pozol.jpg",
+          "id": "cabeza-de-chancho-en-pozol"
         }
       ]
     },
@@ -1480,7 +1508,8 @@
           ],
           "history": "Las enchiladitas boaqueñitas son un platillo tradicional del departamento de Boaco, Nicaragua. Surgieron como una forma práctica y económica de aprovechar ingredientes comunes de la región, como el maíz, la carne y las verduras, con el tiempo, se convirtieron en una comida muy popular en reuniones familiares, fiestas patronales y celebraciones locales. ",
           "preparation": "",
-          "img": "/assets/foods/enchiladita_boaquena_boaco.png"
+          "img": "/assets/foods/enchiladita_boaquena_boaco.png",
+          "id": "enchiladita-boaquena"
         }
       ]
     },
@@ -1544,7 +1573,8 @@
           ],
           "history": "El uliché es un platillo ancestral de origen indígena chontal. Su nombre proviene de la lengua maya-chontal y significa mole, se considera una de las comidas más antiguas conservadas por la comunidadades chontales y tiene raíces prehispánicas, es decir, existe desde antes de la llegada de los españoles.",
           "preparation": "Cocer la carne en los 2 litros de agua con un poco de sal. Cuando esté suave, retirar la carne y reservar el caldo. Añadir tomate, cebolla, chile, dulce, ajo y comino. Cocinar a fuego lento, moviendo constantemente hasta que espese. Agregar nuevamente la carne desmenuzada. Servir caliente y espolvorear pepitas molidas encima si se desea.",
-          "img": "/assets/foods/uliche_chontales.png"
+          "img": "/assets/foods/uliche_chontales.png",
+          "id": "uliche"
         },
         {
           "name": "Totoposte",
@@ -1565,7 +1595,8 @@
           ],
           "history": "El totoposte es un alimento tradicional elaborado  base de maíz, muy consumido en la región de chontales . Desde tiempos antiguos ha sido apreciado por su durabilidad, ya que puede conservarse durante varios días sin dañarse, lo que convirtió en un alimento ideal para viajeros y trabajadores del campo. Su preparación forma parte de las tradiciones gastronómicas nicaragüenses heredadas de los pueblos indígenas.",
           "preparation": "Lavar el maíz y dejarlo en remojo durante toda la noche. Moler el maíz hasta obtener una masa suave. Agregar la sal y mezclar bien. Formar tortillas gruesas y redondas. Cocinarlas en un comal o plancha caliente hasta que estén bien cocidas y doradas. Dejar enfríar. Tradicionalmente, el totoposte se consume acompañado de queso, cuajada o café.",
-          "img": "/assets/foods/totoposte_chontales.png"
+          "img": "/assets/foods/totoposte_chontales.png",
+          "id": "totoposte"
         },
         {
           "name": "XHIXHI VEWAJ(Tamales de carne deshebrada con maíz nuevo)",
@@ -1594,7 +1625,8 @@
           ],
           "history": "El xhixhi vejaw es un platillo tradicional de la cultura chontal de Nicaragua. Se prepara con maíz nuevo y carn deshebrada, ingredientes que reflejan la importancia dl maíz en la alimentación y las tradiciones de los pueblos originarios de  chontales. Se suele elaborar en celebraciones familiares y actividades comunitarias.",
           "preparation": "Desgranar el maìz tierno y molerlo hasta obtener una masa suave. Cocinar la carne de res y deshebrarla. Picar la cebolla, el ajo y la chiltoma. Sofreír la cebolla, el ajo y la chiltoma; luego agregar la carne deshebrada y la sal. Colocar una porción de masa sobre una hoja de plátano o de maíz. Añadir un poco del relleno de carne en el centro. Envolver bien los tamales. Cocinarlos al vapor durante 45 minutos a 1 hora. Dejar enfríar unos minutos y servir calientes",
-          "img": "/assets/foods/xhixhi_vewaj_chontales.png"
+          "img": "/assets/foods/xhixhi_vewaj_chontales.png",
+          "id": "xhixhi-vewaj-tamales-de-carne-deshebrada-con-maiz-nuevo"
         }
       ]
     },
@@ -1646,7 +1678,8 @@
           ],
           "history": "Río San Juan es un santuario biológico donde se fusiona el agua dulce de los grandes lagos con la selva tropical del Caribe. Este platillo representa la unión perfecta del pescado de agua dulce con las salsas a base de coco de herencia afrocaribeña.",
           "preparation": "1. Sazonar el pescado entero con sal, limón y ajo machacado, sellándolo ligeramente en una sartén con poco aceite.\n2. En una olla honda, sofreír las cebollas, pimientos y ajo, luego verter la leche de coco fresca.\n3. Introducir el pescado sellado en la salsa de coco y dejar cocinar a fuego medio hasta que reduzca a una consistencia untuosa y cremosa.\n4. Servir el pescado entero bañado en su salsa acompañado de crujientes tostones de plátano verde.",
-          "img": "/assets/foods/baho_de_robalo_rio_san_juan.png"
+          "img": "/assets/foods/baho_de_robalo_rio_san_juan.png",
+          "id": "baho-de-robalo"
         },
         {
           "name": "Iguana consumida en coco",
@@ -1711,7 +1744,8 @@
           ],
           "history": "La iguana en coco nació de la fusión entre la cacería de subsistencia de los pueblos prehispánicos, quienes valoraban la iguana como fuente de proteína silvestre, y la influencia afrocaribeña que introdujo el uso culinario de la leche de coco en la región húmeda de Río San Juan. Con el tiempo, este guiso de selva y río se consolidó como una tradición culinaria fuertemente arraigada a la Semana Santa",
           "preparation": "Para preparar este platillo, primero limpie la carne de iguana con jugo de limón, córtela en trozos y sofríala en una olla con aceite junto a la cebolla, chiltoma, ajo y tomates picados hasta que los vegetales se ablanden. Seguidamente, disuelva el achiote en la leche de coco, vierta esta mezcla sobre la carne y agregue el culantro, comino, orégano, sal y pimienta al gusto. Finalmente, tape la olla y deje cocinar a fuego lento durante aproximadamente una hora hasta que la carne de iguana esté completamente suave y la salsa de coco haya espesado de forma homogénea.",
-          "img": "/assets/foods/iguana_cnsumida_en_coco_rio_san_juan.png"
+          "img": "/assets/foods/iguana_cnsumida_en_coco_rio_san_juan.png",
+          "id": "iguana-consumida-en-coco"
         },
         {
           "name": "Bebida ancestral de jengibre con raspa de dulce",
@@ -1740,7 +1774,8 @@
           ],
           "history": "La chicha de jengibre con dulce tiene sus raíces en el intercambio cultural del siglo XVII, cuando los esclavos africanos traídos al Caribe centroamericano combinaron el uso medicinal y culinario del jengibre, introducido por los colonizadores con la melaza de la caña de azúcar cultivada en la región. En Río San Juan, esta bebida se consolidó como una fuente de energía barata e inmediata para los obreros, marineros y agricultores que transitaban la ruta fluvial del río, evolucionando de un tónico estimulante contra las fiebres y el agotamiento tropical a un refresco identitario de la vida cotidiana y las festividades locales.",
           "preparation": "Para preparar esta bebida, machaque vigorosamente la raíz de jengibre fresca y colóquela en una olla con los dos litros de agua, dejándola hervir durante unos diez minutos para extraer toda su esencia picante. Retire la olla del fuego, incorpore inmediatamente el dulce de rapadura rallado para que se disuelva con el calor residual, y agregue opcionalmente el jugo de limón para equilibrar los sabores. Finalmente, deje enfriar la infusión a temperatura ambiente, cuélela para retirar los residuos de la raíz y sírvala con abundante hielo picado.",
-          "img": "/assets/foods/bebida_ancestral_de_jengibre_rio_san_juan.png"
+          "img": "/assets/foods/bebida_ancestral_de_jengibre_rio_san_juan.png",
+          "id": "bebida-ancestral-de-jengibre-con-raspa-de-dulce"
         }
       ]
     },
@@ -1828,7 +1863,8 @@
           ],
           "history": "El El rondón tiene su origen en las comunidades afrocaribeñas e indígenas de la Costa Caribe de Nicaragua y otros países del Caribe. Su nombre proviene de la expresión inglesa “run down”, utilizada por los creoles para referirse a una comida preparada con lo que se tenía disponible en el momento. Con el tiempo, esta receta se convirtió en un platillo tradicional elaborado con pescado, mariscos, carne, tubérculos y leche de coco, ingredientes comunes de la región. El rondón representa la mezcla cultural e histórica de los pueblos caribeños y es considerado una de las comidas más emblemáticas de la gastronomía costeña nicaragüense.",
           "preparation": "1. El rondón es una sopa tradicional del Caribe nicaragüense elaborada principalmente con leche de coco, pescado o mariscos, y diferentes tubérculos como yuca, quequisque, malanga y plátano verde. Su preparación inicia cocinando la leche de coco con especias y condimentos naturales como cebolla, ajo, chile y culantro. Luego se agregan los tubérculos para que se ablanden y, finalmente, el pescado o los mariscos, dejándolos cocinar hasta que todos los sabores se integren. El nombre “rondón” proviene de la expresión inglesa “run down”, porque antiguamente se preparaba con los ingredientes que las familias tenían disponibles en casa.",
-          "img": "/assets/foods/rondon_raan.jpg"
+          "img": "/assets/foods/rondon_raan.jpg",
+          "id": "el-rondon"
         },
         {
           "name": "Rice and beans",
@@ -1877,7 +1913,8 @@
           ],
           "history": "El rice and beans tiene sus raíces en la cultura afrocaribeña y llegó a Nicaragua a través de las comunidades afrodescendientes de la Costa Caribe, especialmente influenciadas por tradiciones de Jamaica y otras islas del Caribe. Este platillo surgió de la combinación de ingredientes básicos y accesibles como el arroz, los frijoles y el coco, productos muy comunes en la región. Con el tiempo, se convirtió en uno de los alimentos más representativos de la gastronomía caribeña nicaragüense, consumido en celebraciones, reuniones familiares y en la vida cotidiana.",
           "preparation": "El rice and beans se prepara cocinando frijoles previamente hervidos junto con arroz en leche de coco. Primero se sofríen cebolla, chiltoma, ajo y especias al gusto; luego se agregan los frijoles con parte de su caldo y la leche de coco. Después se incorpora el arroz y se deja cocinar hasta que absorba el líquido y quede suave y aromático. Muchas veces se acompaña con pollo frito, pescado, ensalada o tajadas de plátano.",
-          "img": "/assets/foods/rice_and_beans_raan.jpg"
+          "img": "/assets/foods/rice_and_beans_raan.jpg",
+          "id": "rice-and-beans"
         },
         {
           "name": "Fish tea",
@@ -1950,7 +1987,8 @@
           ],
           "history": "El fish tea es un platillo tradicional de la cocina jamaicana y caribeña que nació en las comunidades pesqueras de Jamaica. A pesar de su nombre, no es un té, sino una sopa ligera de pescado preparada con hierbas, vegetales y especias locales. Su origen se relaciona con la necesidad de los pescadores de aprovechar el pescado fresco y preparar una comida nutritiva, económica y reconfortante después de las jornadas de pesca. Con el tiempo, el fish tea se convirtió en una receta muy popular en hogares, reuniones y celebraciones jamaicanas, especialmente en zonas costeras. Tradicionalmente se sirve caliente y se considera un plato revitalizante por su caldo lleno de sabor y nutrientes.",
           "preparation": "La preparación del fish tea comienza limpiando y cortando el pescado en trozos, generalmente pescado fresco como pargo o róbalo. Luego se coloca en una olla con agua y se cocina junto con ajo, cebolla, chile, tomillo y otras especias tradicionales caribeñas. Después se agregan vegetales como zanahoria, papa, plátano verde o yuca para darle más sabor y consistencia al caldo. La sopa se deja hervir hasta que el pescado y los vegetales estén bien cocidos. Finalmente, se ajusta la sal y se sirve caliente, obteniendo un caldo ligero, aromático y muy nutritivo..",
-          "img": "/assets/foods/fish_tea_raan.jpg"
+          "img": "/assets/foods/fish_tea_raan.jpg",
+          "id": "fish-tea"
         }
       ]
     },
@@ -2034,7 +2072,8 @@
           ],
           "history": "La sopa de mariscos tiene su origen en las comunidades costeras, donde los pescadores aprovechaban los mariscos frescos obtenidos del mar para preparar comidas nutritivas y abundantes. Con el paso del tiempo, esta receta se extendió por muchos países de América Latina y el Caribe, adaptándose a los ingredientes y sabores de cada región. En lugares como Nicaragua, Honduras, Panamá y otros países caribeños, se volvió un platillo tradicional en celebraciones, reuniones familiares y restaurantes de la costa. Su popularidad creció gracias a la combinación de sabores del mar con verduras, especias y, en algunas versiones, leche de coco, creando un plato representativo de la cultura gastronómica costera..",
           "preparation": "La preparación de la sopa de mariscos comienza limpiando bien los mariscos como camarones, pescado, almejas, cangrejo y calamar. Luego se prepara un sofrito con cebolla, ajo, chile dulce, tomate y especias para darle sabor al caldo. Después se agrega agua o caldo de pescado y se incorporan verduras como papa, zanahoria, yuca o plátano verde. Cuando las verduras están casi cocidas, se añaden los mariscos para evitar que se cocinen demasiado. En algunas recetas también se agrega leche de coco para darle un sabor más caribeño y cremoso. Finalmente, se deja hervir unos minutos más y se sirve caliente..",
-          "img": "/assets/foods/sopa_de_marisco_raas.jpg"
+          "img": "/assets/foods/sopa_de_marisco_raas.jpg",
+          "id": "sopa-de-marisco"
         }
       ]
     }

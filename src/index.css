@@ -231,6 +231,7 @@ body {
      Restringimos el panel derecho a un máximo de ~750px (aprox 25% menos de su tamaño total en pantallas grandes) 
      y centramos la cuadrícula. */
   grid-template-columns: 380px minmax(0, 450px);
+  grid-template-rows: max-content 1fr;
   justify-content: center;
   gap: 2rem;
   align-items: start;
@@ -238,10 +239,26 @@ body {
   animation: slide-up 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.left-panel, .right-panel {
+.left-panel {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.comments-panel {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: start;
 }
 
 /* Department Name Header */
@@ -648,6 +665,13 @@ body {
   animation: fade-in 0.3s ease;
 }
 
+/* Cusdis Iframe Fix */
+#cusdis_thread iframe {
+  width: 100% !important;
+  min-height: 600px !important;
+  border: none !important;
+}
+
 .ingredients-list {
   display: grid;
   grid-template-columns: 1fr;
@@ -751,6 +775,12 @@ body {
   
   .bento-grid.active-layout {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  
+  .left-panel, .right-panel, .comments-panel {
+    grid-column: 1;
+    grid-row: auto;
   }
   
   .center-panel {

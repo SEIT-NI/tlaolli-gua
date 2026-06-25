@@ -69,3 +69,19 @@ Al ser una aplicación 100% de archivos estáticos (JS, CSS, HTML procesados por
    - **Build Command**: `npm run build`
    - **Output Directory**: `dist`
 4. Guarda y despliega. El servidor en la nube hará el proceso de compilación de forma remota y publicará automáticamente tu proyecto. A partir de este momento, **cada nuevo `git push` a tu rama principal actualizará automáticamente tu sitio en vivo en cuestión de segundos**.
+
+## 👥 Sobre Nosotros (Créditos)
+
+Esta app web fue creada por el grupo de estudiantes de 11vo grado, de la escuela **Una Cita Con Dios**.
+
+**Integrantes:**
+- Lindsay
+- Kate
+- Brisa
+- Lucila
+- Rosa
+- Jouset
+- Keydi
+
+**Apoyo Técnico:**
+- Roberto Zepeda
