@@ -5,6 +5,7 @@ function useScript(src) {
 
   useEffect(() => {
     if (!src) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setStatus('idle');
       return;
     }

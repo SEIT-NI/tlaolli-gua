@@ -4,7 +4,6 @@ import {
   Route,
   useNavigate,
   useParams,
-  useLocation,
 } from "react-router-dom";
 import { ReactCusdis } from "./components/ReactCusdis";
 import NicaraguaMap from "./components/NicaraguaMap";
@@ -15,10 +14,10 @@ function AppContent({ gastronomyData, loading, theme, toggleTheme }) {
   const { deptId, foodId } = useParams();
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState("description");
-  const location = useLocation();
 
   // Reset active tab when food changes
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setActiveTab("description");
   }, [foodId]);
 
